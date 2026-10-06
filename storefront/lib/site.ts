@@ -1,6 +1,11 @@
 export const site = {
   name: "Aromart Rios",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.aromartrios.com.br",
+  // Domínio de produção atual na Vercel (passa a ser o domínio próprio quando ele for conectado)
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "https://www.aromartrios.com.br"),
   description:
     "Aromatização de ambientes e marketing olfativo para empresas: lojas, hotéis, clínicas, academias e escritórios. Fragrâncias exclusivas e entrega em todo o Brasil.",
   whatsapp: "5521964066834",

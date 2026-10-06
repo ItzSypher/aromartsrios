@@ -7,7 +7,8 @@ docs/AUDITORIA.md                    o que está errado no site atual (e o que f
 tools/scraper/scrape.py              extrai produtos, variações, preços, fotos e páginas da Loja Integrada
 tools/shopify/sync.mjs               envia o catálogo para a Shopify (Admin API), idempotente
 exports/shopify_products_import.csv  alternativa sem código: Shopify > Produtos > Importar
-storefront/                          novo site (Next.js 16 + Tailwind v4)
+storefront/                          novo site (Next.js 16 + Tailwind v4 + Framer Motion)
+video/                               vídeo story do site novo (Remotion)
 .claude/skills/                      skills de design instaladas (taste-skill)
 ```
 
