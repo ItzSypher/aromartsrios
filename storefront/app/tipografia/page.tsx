@@ -32,8 +32,8 @@ type Option = {
 const options: Option[] = [
   {
     id: "atual",
-    name: "Atual (MVP)",
-    why: "Neutra e eficiente, mas comum em sites feitos com IA. Serve de comparação.",
+    name: "Anterior (Geist)",
+    why: "Fonte usada no MVP. Neutra e eficiente, mas comum em sites feitos com IA. Fica aqui para comparação.",
     display: geist.className,
     body: geist.className,
     displayLabel: "Geist",
@@ -45,8 +45,8 @@ const options: Option[] = [
   {
     id: "perfumaria",
     name: "Perfumaria clássica",
-    tag: "Recomendada",
-    why: "Serifa de alto contraste com cara de rótulo de perfume, equilibrada por uma geométrica no estilo Futura, tipografia histórica da perfumaria. Conversa com o AROMARTS do logo.",
+    tag: "Em uso no site",
+    why: "Serifa de alto contraste com cara de rótulo de perfume, equilibrada por uma geométrica no estilo Futura, tipografia histórica da perfumaria. Conversa com o nome AROMART RIOS no logo.",
     display: cormorant.className,
     body: jost.className,
     displayLabel: "Cormorant Garamond",

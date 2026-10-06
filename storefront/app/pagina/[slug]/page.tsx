@@ -20,7 +20,7 @@ export default async function InstitutionalPage({ params }: PageProps<"/pagina/[
 
   return (
     <article className="mx-auto max-w-3xl px-4 pt-12 md:px-8 md:pt-20">
-      <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">{page.title}</h1>
+      <h1 className="font-display text-5xl font-medium tracking-[-0.01em] md:text-6xl">{page.title}</h1>
       <div className="prose-store mt-10 text-[17px]" dangerouslySetInnerHTML={{ __html: page.html }} />
       <a
         href={whatsappLink(`Olá! Vim da página "${page.title}" no site.`)}

@@ -40,7 +40,7 @@ export function FragranceExplorer({ items }: { items: ExplorerItem[] }) {
         <div
           role="tablist"
           aria-label="Famílias olfativas"
-          className="scrollbar-none -mx-4 flex gap-2 overflow-x-auto px-4 pb-1 md:mx-0 md:flex-wrap md:px-0"
+          className="scrollbar-none -mx-4 flex scroll-px-4 gap-2 overflow-x-auto px-4 pb-1 md:mx-0 md:flex-wrap md:px-0"
         >
           {[{ id: "todas" as const, label: "Todas" }, ...families].map((f) => {
             const active = family === f.id;
@@ -72,7 +72,7 @@ export function FragranceExplorer({ items }: { items: ExplorerItem[] }) {
       <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_1.15fr] lg:gap-12">
         {/* Lista de fragrâncias: trilho no celular, lista no desktop */}
         <ul
-          className="scrollbar-none -mx-4 flex snap-x snap-mandatory gap-2 overflow-x-auto px-4 lg:mx-0 lg:grid lg:snap-none lg:grid-cols-2 lg:content-start lg:gap-x-6 lg:gap-y-0 lg:overflow-visible lg:px-0"
+          className="scrollbar-none -mx-4 flex snap-x snap-mandatory scroll-px-4 gap-2 overflow-x-auto px-4 pb-1 lg:mx-0 lg:grid lg:snap-none lg:grid-cols-2 lg:content-start lg:gap-x-6 lg:gap-y-0 lg:overflow-visible lg:px-0"
           aria-label="Fragrâncias"
         >
           {visible.map((f) => {
@@ -121,26 +121,26 @@ export function FragranceExplorer({ items }: { items: ExplorerItem[] }) {
                   <div className="flex flex-col gap-6 p-6 md:p-8">
                     <div>
                       <p className="text-sm text-muted">{families.find((f) => f.id === selected.family)?.label}</p>
-                      <h3 className="mt-1 text-3xl font-semibold tracking-tight">{selected.name}</h3>
+                      <h3 className="mt-1 font-display text-4xl font-medium">{selected.name}</h3>
                       <p className="mt-2 leading-relaxed text-muted">{selected.mood}</p>
                     </div>
 
-                    <dl className="space-y-3">
+                    <dl className="border-b border-line">
                       {(
                         [
-                          ["Saída", selected.notes.saida, "w-[70%]"],
-                          ["Coração", selected.notes.coracao, "w-[85%]"],
-                          ["Fundo", selected.notes.fundo, "w-full"],
+                          ["Saída", selected.notes.saida],
+                          ["Coração", selected.notes.coracao],
+                          ["Fundo", selected.notes.fundo],
                         ] as const
-                      ).map(([label, value, width], i) => (
+                      ).map(([label, value], i) => (
                         <motion.div
                           key={label}
                           initial={reduce ? false : { opacity: 0, x: -12 }}
                           animate={{ opacity: 1, x: 0 }}
                           transition={{ duration: 0.5, delay: 0.1 + i * 0.08, ease: EASE }}
-                          className={`${width} rounded-[var(--radius-media)] bg-bg px-4 py-3`}
+                          className="grid grid-cols-[5.5rem_1fr] items-baseline gap-3 border-t border-line py-3"
                         >
-                          <dt className="text-xs text-muted">{label}</dt>
+                          <dt className="text-xs uppercase tracking-[0.12em] text-muted">{label}</dt>
                           <dd className="text-sm font-medium leading-snug">{value}</dd>
                         </motion.div>
                       ))}
@@ -150,9 +150,9 @@ export function FragranceExplorer({ items }: { items: ExplorerItem[] }) {
                       <ul className="space-y-1.5">
                         {selected.formats.map((fmt) => (
                           <li key={fmt.href}>
-                            <Link href={fmt.href} className="group flex items-center justify-between gap-3 text-sm">
-                              <span className="underline-offset-4 group-hover:underline">{fmt.label}</span>
-                              <span className="flex items-center gap-1.5 tabular-nums text-muted">
+                            <Link href={fmt.href} className="group flex items-baseline justify-between gap-3 py-1 text-sm">
+                              <span className="min-w-0 text-balance underline-offset-4 group-hover:underline">{fmt.label}</span>
+                              <span className="flex shrink-0 items-center gap-1.5 whitespace-nowrap tabular-nums text-muted">
                                 {fmt.ranged && "a partir de "}
                                 {brl(fmt.price)}
                                 <ArrowUpRight size={14} />

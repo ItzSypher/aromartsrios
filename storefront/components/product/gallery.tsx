@@ -10,7 +10,7 @@ export function Gallery({ images, name }: { images: string[]; name: string }) {
   return (
     <div className="flex min-w-0 flex-col-reverse gap-3 md:flex-row">
       {images.length > 1 && (
-        <ul className="scrollbar-none flex gap-2 overflow-x-auto md:w-20 md:flex-col md:overflow-visible" aria-label="Miniaturas">
+        <ul className="scrollbar-none -m-1 flex gap-2 overflow-x-auto p-1 md:m-0 md:w-20 md:flex-col md:overflow-visible md:p-0" aria-label="Miniaturas">
           {images.map((src, i) => (
             <li key={src} className="shrink-0">
               <button

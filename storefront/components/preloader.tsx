@@ -1,7 +1,7 @@
 import { LOGO_PATH, LOGO_VIEWBOX } from "@/components/brand-logo";
 
 /**
- * Preloader: a logo Aromarts se preenche de baixo para cima, como um líquido
+ * Preloader: a logo Aromart Rios se preenche de baixo para cima, como um líquido
  * (onda subindo sobre uma "sombra" clara da própria logo).
  * Renderizado no servidor e animado só com CSS: aparece no primeiro quadro,
  * sai sozinho mesmo sem JavaScript e não bloqueia o conteúdo para o Google.

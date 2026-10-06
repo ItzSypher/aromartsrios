@@ -51,4 +51,4 @@ Sem configuração, o site usa o catálogo exportado e o checkout abre o **Whats
 
 ## Design
 
-Direção definida com a skill `design-taste-frontend`: redesign completo para e-commerce de fragrâncias (consumidor + B2B), paleta derivada da marca (oliva-grafite `#3f3d38` + sálvia `#dcdcb4`), Geist, modo claro/escuro automático, movimento sutil em CSS respeitando `prefers-reduced-motion`.
+Direção definida com a skill `design-taste-frontend`: redesign completo para e-commerce de fragrâncias (consumidor + B2B), paleta derivada da marca (oliva-grafite `#3f3d38` + sálvia `#dcdcb4`), tipografia "Perfumaria clássica" (Cormorant Garamond nos títulos + Jost no texto), modo claro/escuro automático, movimento com Framer Motion respeitando `prefers-reduced-motion`.

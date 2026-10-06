@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
+import { BrandMark } from "@/components/brand-logo";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { List, MagnifyingGlass, ShoppingBag, X } from "@phosphor-icons/react";
@@ -32,8 +32,8 @@ export function SiteHeader() {
         </button>
 
         <Link href="/" className="flex items-center gap-2.5" aria-label="Aromart Rios, página inicial">
-          <Image src="/brand/icon.png" alt="" width={34} height={28} priority className="dark:invert" />
-          <span className="hidden text-[15px] font-semibold tracking-tight min-[400px]:inline">Aromart Rios</span>
+          <BrandMark className="h-7 w-auto" />
+          <span className="hidden text-[15px] font-semibold tracking-tight min-[370px]:inline">Aromart Rios</span>
         </Link>
 
         <nav aria-label="Principal" className="hidden flex-1 justify-center lg:flex">

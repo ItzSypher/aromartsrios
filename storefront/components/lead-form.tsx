@@ -89,7 +89,7 @@ export function LeadForm() {
           role="status"
         >
           <CheckCircle size={44} weight="light" className="text-sage-deep" />
-          <h3 className="text-2xl font-semibold tracking-tight">Pedido pronto no WhatsApp</h3>
+          <h3 className="font-display text-3xl font-medium">Pedido pronto no WhatsApp</h3>
           <p className="max-w-[44ch] text-muted">
             Abrimos a conversa com seus dados preenchidos. Só falta tocar em enviar. Se a janela não abriu,{" "}
             <a href={sentUrl} target="_blank" rel="noopener" className="font-medium text-ink underline underline-offset-4">
@@ -191,7 +191,7 @@ export function LeadForm() {
               id="lead-mensagem"
               name="mensagem"
               rows={3}
-              className={`${field} rounded-[var(--radius-media)] py-3`}
+              className={`${field.replace("rounded-full ", "")} rounded-[20px] py-3`}
             />
           </div>
 

@@ -69,7 +69,7 @@ export default async function SlugPage({ params, searchParams }: PageProps<"/[sl
         <span className="text-ink">{data.collection.title}</span>
       </nav>
       <div className="mt-6 flex flex-wrap items-end justify-between gap-6">
-        <h1 className="text-4xl font-semibold tracking-tight md:text-6xl">{data.collection.title}</h1>
+        <h1 className="font-display text-5xl font-medium tracking-[-0.01em] md:text-7xl">{data.collection.title}</h1>
         <div className="flex items-center gap-1 text-sm" role="group" aria-label="Ordenar">
           {Object.entries(SORTS).map(([key, s]) => (
             <Link
@@ -111,7 +111,7 @@ async function ProductView({ product }: { product: Product }) {
     image: product.images.map((i) => (i.startsWith("/") ? `${site.url}${i}` : i)),
     description: product.seoDescription,
     sku: product.variants[0]?.sku,
-    brand: { "@type": "Brand", name: "Aromarts" },
+    brand: { "@type": "Brand", name: site.name },
     offers: product.variants.map((v) => ({
       "@type": "Offer",
       sku: v.sku,
@@ -143,7 +143,7 @@ async function ProductView({ product }: { product: Product }) {
         <Gallery images={product.images} name={product.name} />
         <div className="min-w-0 lg:sticky lg:top-28 lg:self-start">
           <p className="text-sm text-muted">{product.productType}</p>
-          <h1 className="mt-2 text-3xl font-semibold leading-tight tracking-tight md:text-4xl">{product.name}</h1>
+          <h1 className="mt-2 font-display text-4xl font-medium leading-[1.05] tracking-[-0.01em] md:text-5xl">{product.name}</h1>
           <div className="mt-8">
             <BuyBox product={product} />
           </div>
@@ -152,14 +152,14 @@ async function ProductView({ product }: { product: Product }) {
 
       {product.descriptionHtml && (
         <section className="mt-20 grid gap-8 border-t border-line pt-12 lg:grid-cols-[1fr_2fr]">
-          <h2 className="text-2xl font-semibold tracking-tight">Sobre o produto</h2>
+          <h2 className="font-display text-3xl font-medium">Sobre o produto</h2>
           <div className="prose-store" dangerouslySetInnerHTML={{ __html: product.descriptionHtml }} />
         </section>
       )}
 
       {related.length > 0 && (
         <section className="mt-24">
-          <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">Combina com</h2>
+          <h2 className="font-display text-3xl font-medium md:text-4xl">Combina com</h2>
           <ul className="mt-8 grid grid-cols-2 gap-x-4 gap-y-10 md:grid-cols-4 md:gap-x-6">
             {related.map((p) => (
               <li key={p.handle}>
