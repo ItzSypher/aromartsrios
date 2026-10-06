@@ -1,0 +1,2644 @@
+{
+  "source": "https://www.aromartrios.com.br",
+  "scraped_at": "2026-10-06",
+  "count": 56,
+  "errors": [],
+  "collections": [
+    {
+      "handle": "difusores",
+      "title": "Difusores",
+      "count": 11
+    },
+    {
+      "handle": "home-spray",
+      "title": "Home Spray",
+      "count": 16
+    },
+    {
+      "handle": "aromas",
+      "title": "Aromatizantes",
+      "count": 29
+    }
+  ],
+  "products": [
+    {
+      "id": "21670837",
+      "handle": "aromatizante-alecrim",
+      "url": "https://www.aromartrios.com.br/aromatizante-alecrim",
+      "name": "Aromatizante Alecrim",
+      "sku": "ART-ALECRIM",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 99.99,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Alecrim é uma fragrância revitalizante e natural, perfeita para quem aprecia a pureza e o frescor das ervas aromáticas. Sua abertura vibrante combina notas frescas e cítricas de lavanda, alecrim, laranja e limão, proporcionando uma sensação imediata de energia e bem-estar.No coração, um delicado equilíbrio entre flores",
+      "description_html": "<p>Alecrim é uma fragrância revitalizante e natural, perfeita para quem aprecia a pureza e o frescor das ervas aromáticas.<br/>\r\nSua abertura vibrante combina notas frescas e cítricas de lavanda, alecrim, laranja e limão, proporcionando uma sensação imediata de energia e bem-estar.No coração, um delicado equilíbrio entre flores brancas, litsea cubeba e petit grain adiciona uma suavidade floral refinada.</p>\n<p>Por fim, a base se revela com madeiras nobres, musk, pau-rosa e cedro, conferindo profundidade, calor e um toque sofisticado e envolvente. Uma composição harmoniosa que perfuma e transforma qualquer ambiente com elegância e frescor.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670837/alecrim-gv3d4zt067.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670837/alecrim---copia-5biwx5fzr6.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670837/4d87258bc261827cdc3ae44cc4426c7e-v5qwfidbby.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670837/photoroom_20231216_154429-r6bhuuqj6s.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670837/576ad5a079935339934e4accd247516b-s0rodqkcj0.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21671056",
+          "sku": "ART-ALECRIM-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670837/alecrim---copia-5biwx5fzr6.png"
+        },
+        {
+          "id": "246119132",
+          "sku": "ART-ALECRIM-500-ml",
+          "title": "500 Ml",
+          "price": 99.99,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670837/alecrim-gv3d4zt067.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-alecrim-1.webp",
+        "/products/aromatizante-alecrim-2.webp",
+        "/products/aromatizante-alecrim-3.webp",
+        "/products/aromatizante-alecrim-4.webp",
+        "/products/aromatizante-alecrim-5.webp"
+      ]
+    },
+    {
+      "id": "21672621",
+      "handle": "aromatizante-aromarts",
+      "url": "https://www.aromartrios.com.br/aromatizante-aromarts",
+      "name": "Aromatizante Aromarts",
+      "sku": "ART-AROMART",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 79.9,
+      "price_max": 109.9,
+      "available": true,
+      "seo_description": "Aromarts é uma fragrância sofisticada e envolvente, perfeita para quem busca um aroma marcante e distinto. Sua saída combina a delicadeza floral da frésia com a leveza cítrica do néroli, criando uma abertura fresca e revigorante. No coração, a elegância da lavanda se entrelaça ao toque sutilmente herbáceo do junípero, ",
+      "description_html": "<p>Aromarts é uma fragrância sofisticada e envolvente, perfeita para quem busca um aroma marcante e distinto. Sua saída combina a delicadeza floral da frésia com a leveza cítrica do néroli, criando uma abertura fresca e revigorante. No coração, a elegância da lavanda se entrelaça ao toque sutilmente herbáceo do junípero, acrescentando profundidade e um caráter aromático refinado. Para finalizar, a base de musgo e âmbar revela uma assinatura quente e acolhedora, proporcionando uma experiência olfativa sofisticada e memorável.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672621/aromarts-jvkx52ehr2.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672621/aromarts---copia-wzzzcyp8lg.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672621/e54d1e2263d2a56f15cba0c2a473d619-aibzxejr4v.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672621/photoroom_20231216_154429-xsj06407p2.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672621/6fac67a5cfc78da4f29a85b866f67244-e5ejpidnnr.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672621/a33953635dd69ce1d64604b7a9ba581d-7wrl2drm4q.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21672626",
+          "sku": "ART-AROMART-1-litro",
+          "title": "1 Litro",
+          "price": 109.9,
+          "compare_at_price": 139.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672621/aromarts---copia-wzzzcyp8lg.png"
+        },
+        {
+          "id": "278806703",
+          "sku": "ART-AROMART-500-ml",
+          "title": "500 Ml",
+          "price": 79.9,
+          "compare_at_price": 119.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672621/aromarts-jvkx52ehr2.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-aromarts-1.webp",
+        "/products/aromatizante-aromarts-2.webp",
+        "/products/aromatizante-aromarts-3.webp",
+        "/products/aromatizante-aromarts-4.webp",
+        "/products/aromatizante-aromarts-5.webp",
+        "/products/aromatizante-aromarts-6.webp"
+      ]
+    },
+    {
+      "id": "22342685",
+      "handle": "aromatizante-bamboo",
+      "url": "https://www.aromartrios.com.br/aromatizante-bamboo",
+      "name": "Aromatizante Bamboo",
+      "sku": "ART-BAMBOO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Bamboo é uma fragrância delicada e harmoniosa, ideal para criar uma atmosfera de serenidade e bem-estar. Sua abertura combina o frescor verde do bamboo com a vivacidade cítrica da bergamota, trazendo uma sensação revigorante e leve. No coração, a sofisticação do jacinto e a suavidade do jasmim se entrelaçam em um buquê",
+      "description_html": "<p>Bamboo é uma fragrância delicada e harmoniosa, ideal para criar uma atmosfera de serenidade e bem-estar. Sua abertura combina o frescor verde do bamboo com a vivacidade cítrica da bergamota, trazendo uma sensação revigorante e leve. No coração, a sofisticação do jacinto e a suavidade do jasmim se entrelaçam em um buquê floral equilibrado e elegante.</p>\n<p>Por fim, a base de musk e madeira aveludada envolve o ambiente com um toque suave e acolhedor, garantindo um aroma refinado e reconfortante.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342685/bamboo-1-2y2tq0w6yc.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342685/bambu-2---copia-62lteuebb8.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342685/1735db76629abf44c62aa2f2e7296504-lbhr48ewyk.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342685/70eefeacafbcd3117ac9fd4ce06352b3-q8fhdss9yz.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342685/photoroom_20231216_154429-zblqsk8kex.jpg"
+      ],
+      "variants": [
+        {
+          "id": "22342686",
+          "sku": "ART-BAMBOO-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342685/bambu-2---copia-62lteuebb8.png"
+        },
+        {
+          "id": "246491192",
+          "sku": "ART-BAMBOO-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342685/bamboo-1-2y2tq0w6yc.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-bamboo-1.webp",
+        "/products/aromatizante-bamboo-2.webp",
+        "/products/aromatizante-bamboo-3.webp",
+        "/products/aromatizante-bamboo-4.webp",
+        "/products/aromatizante-bamboo-5.webp"
+      ]
+    },
+    {
+      "id": "21673002",
+      "handle": "aromatizante-bb",
+      "url": "https://www.aromartrios.com.br/aromatizante-bb",
+      "name": "Aromatizante Bb",
+      "sku": "ART-BB",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Fragrâncias"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 75.0,
+      "price_max": 159.9,
+      "available": true,
+      "seo_description": "Bb é uma fragrância delicada e envolvente, perfeita para transmitir aconchego e suavidade. Sua abertura combina o frescor aromático do anis com a serenidade da lavanda, criando uma sensação leve e relaxante. No coração, um buquê sofisticado de íris, jasmim e gerânio adiciona profundidade floral e um toque de elegância.",
+      "description_html": "<p>Bb é uma fragrância delicada e envolvente, perfeita para transmitir aconchego e suavidade. Sua abertura combina o frescor aromático do anis com a serenidade da lavanda, criando uma sensação leve e relaxante. No coração, um buquê sofisticado de íris, jasmim e gerânio adiciona profundidade floral e um toque de elegância.</p>\n<p>Uma composição harmoniosa que perfuma com delicadeza e torna qualquer ambiente mais acolhedor.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673002/bb-y3lg6oefim.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673002/bb---copia-qvmph3nxps.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673002/3cc74a96e4d241cba670870375b32fec-0t2k4klsr1.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673002/photoroom_20231216_154429-f2e68x6ksp.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673002/46e7fb13550015ddbc93b899b146d8ea-ayxt0s4gzc.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673002/8d7a9b38002848d2c6c57df396a31b10-3kjcqv2zkf.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21673012",
+          "sku": "ART-BB-1-litro",
+          "title": "1 Litro",
+          "price": 159.9,
+          "compare_at_price": 189.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673002/bb---copia-qvmph3nxps.png"
+        },
+        {
+          "id": "246493244",
+          "sku": "ART-BB-500-ml",
+          "title": "500 Ml",
+          "price": 75.0,
+          "compare_at_price": 99.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673002/bb-y3lg6oefim.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-bb-1.webp",
+        "/products/aromatizante-bb-2.webp",
+        "/products/aromatizante-bb-3.webp",
+        "/products/aromatizante-bb-4.webp",
+        "/products/aromatizante-bb-5.webp",
+        "/products/aromatizante-bb-6.webp"
+      ]
+    },
+    {
+      "id": "21670252",
+      "handle": "aromatizante-black-vanilla",
+      "url": "https://www.aromartrios.com.br/aromatizante-black-vanilla",
+      "name": "Aromatizante Black Vanilla",
+      "sku": "ART-BLK-VANILLA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 99.99,
+      "price_max": 129.99,
+      "available": true,
+      "seo_description": "Black Vanilla é uma fragrância sofisticada e envolvente, ideal para quem busca um aroma indulgente e aconchegante. Sua abertura exótica combina o toque adocicado do anis com a cremosidade do coco e a leveza cítrica da bergamota, criando um início intrigante e sedutor. No coração, a delicadeza floral do jasmim se funde ",
+      "description_html": "<p>Black Vanilla é uma fragrância sofisticada e envolvente, ideal para quem busca um aroma indulgente e aconchegante. Sua abertura exótica combina o toque adocicado do anis com a cremosidade do coco e a leveza cítrica da bergamota, criando um início intrigante e sedutor. No coração, a delicadeza floral do jasmim se funde à suavidade do leite, resultando em uma textura olfativa cremosa e sofisticada. </p>\n<p>Por fim, a base de musk e baunilha envolve o ambiente com um toque quente e reconfortante, garantindo uma assinatura marcante e duradoura.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670252/black-vanilla-pqleu9paot.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670252/black-vanilla---copia-ofg2tlmzfc.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670252/ed8332985e291451ab1208de28aa89bf-4iokqhqfye.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670252/photoroom_20231216_154429-uj6xvj7egf.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670252/f3e3026afb84e85a23f94eba534e485b-jpcfagckl4.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670252/16abfd58c805dbb7e9277acdba627739-myouermwct.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21670257",
+          "sku": "ART-BLK-VANILLA-1-litro",
+          "title": "1 Litro",
+          "price": 129.99,
+          "compare_at_price": 159.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670252/black-vanilla---copia-ofg2tlmzfc.png"
+        },
+        {
+          "id": "249525097",
+          "sku": "ART-BLK-VANILLA-500-ml",
+          "title": "500 Ml",
+          "price": 99.99,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670252/black-vanilla-pqleu9paot.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-black-vanilla-1.webp",
+        "/products/aromatizante-black-vanilla-2.webp",
+        "/products/aromatizante-black-vanilla-3.webp",
+        "/products/aromatizante-black-vanilla-4.webp",
+        "/products/aromatizante-black-vanilla-5.webp",
+        "/products/aromatizante-black-vanilla-6.webp"
+      ]
+    },
+    {
+      "id": "21670033",
+      "handle": "aromatizante-blue",
+      "url": "https://www.aromartrios.com.br/aromatizante-blue",
+      "name": "Aromatizante Blue",
+      "sku": "ART-BLUE",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Blue é uma fragrância masculina vibrante e sofisticada, perfeita para homens que vivem com energia e intensidade. Sua saída combina a picância da pimenta rosa com a vivacidade dos acordes cítricos, equilibrada pela refrescância da menta e a elegância do vetiver, criando uma abertura revigorante e marcante. No coração, ",
+      "description_html": "<p>Blue é uma fragrância masculina vibrante e sofisticada, perfeita para homens que vivem com energia e intensidade. Sua saída combina a picância da pimenta rosa com a vivacidade dos acordes cítricos, equilibrada pela refrescância da menta e a elegância do vetiver, criando uma abertura revigorante e marcante. No coração, a complexidade aromática do jasmim, labdanum, grapefruit, cedro e noz-moscada adiciona profundidade e caráter à composição.</p>\n<p>Por fim, a base de gengibre, incenso, sândalo, musgo e patchouli traz uma assinatura amadeirada e especiada, proporcionando um rastro intenso, sofisticado e inesquecível.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670033/blue-hy60qu8w35.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670033/blue---copia-es3qcoa3o4.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670033/577810f9a6e69cead8aa7cfc4df01d49-5v97x86ti6.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670033/photoroom_20231216_154429-qgz3251swt.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670033/5f7d936ae21071acd9f77da4861611c4-jlsvo7fg2t.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670033/0210c495c7f31c8a1de3569657e36b46-02wgwigxo5.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21670040",
+          "sku": "ART-BLUE-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670033/blue---copia-es3qcoa3o4.png"
+        },
+        {
+          "id": "247789891",
+          "sku": "ART-BLUE-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670033/blue-hy60qu8w35.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-blue-1.webp",
+        "/products/aromatizante-blue-2.webp",
+        "/products/aromatizante-blue-3.webp",
+        "/products/aromatizante-blue-4.webp",
+        "/products/aromatizante-blue-5.webp",
+        "/products/aromatizante-blue-6.webp"
+      ]
+    },
+    {
+      "id": "21675362",
+      "handle": "aromatizante-bossa",
+      "url": "https://www.aromartrios.com.br/aromatizante-bossa-",
+      "name": "Aromatizante Bossa",
+      "sku": "ART-BOSSA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 99.99,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Bossa é uma fragrância leve e revigorante, perfeita para momentos de frescor e descontração. Sua saída cítrica combina a vivacidade do limão, verbena, lavanda e lima da Pérsia, proporcionando uma sensação energizante e luminosa. No coração, o frescor natural das notas verdes se une à delicadeza do lírio do vale, evocan",
+      "description_html": "<p>Bossa é uma fragrância leve e revigorante, perfeita para momentos de frescor e descontração. Sua saída cítrica combina a vivacidade do limão, verbena, lavanda e lima da Pérsia, proporcionando uma sensação energizante e luminosa. No coração, o frescor natural das notas verdes se une à delicadeza do lírio do vale, evocando a serenidade da natureza.</p>\n<p>Por fim, a base de musk, cedro e patchouli adiciona um toque amadeirado sofisticado, conferindo equilíbrio e elegância à fragrância. Uma composição harmoniosa que traduz frescor, leveza e sofisticação em cada nota.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21675362/bossa--1--3u9edapffs.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21675362/bossa-amshf66161.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21675362/photoroom_20231216_154429-35zo61p1ah-cjvrfdshsy.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21675382",
+          "sku": "ART-BOSSA-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": null
+        },
+        {
+          "id": "250572535",
+          "sku": "ART-BOSSA-500-ml",
+          "title": "500 Ml",
+          "price": 99.99,
+          "compare_at_price": 129.99,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-bossa-1.webp",
+        "/products/aromatizante-bossa-2.webp",
+        "/products/aromatizante-bossa-3.webp"
+      ]
+    },
+    {
+      "id": "21671127",
+      "handle": "aromatizante-cereja-com-avela",
+      "url": "https://www.aromartrios.com.br/aromatizante-cereja-com-avela",
+      "name": "Aromatizante Cereja com Avelã",
+      "sku": "ART-CRJ-AVELA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Cereja e Avelã é uma fragrância gourmand irresistível, que combina doçura e sofisticação em uma experiência olfativa envolvente. Sua abertura traz a suculência vibrante da cereja, equilibrada pelo frescor do limão e a doçura delicada do morango, criando um início frutado e cativante. No coração, a cremosidade da avelã ",
+      "description_html": "<p>Cereja e Avelã é uma fragrância gourmand irresistível, que combina doçura e sofisticação em uma experiência olfativa envolvente. Sua abertura traz a suculência vibrante da cereja, equilibrada pelo frescor do limão e a doçura delicada do morango, criando um início frutado e cativante. No coração, a cremosidade da avelã se entrelaça à elegância do jasmim e ao calor especiado da canela, resultando em um aroma acolhedor e sofisticado. </p>\n<p>Por fim, a base de âmbar, musk e baunilha proporciona uma assinatura reconfortante e duradoura, deixando um rastro quente e sofisticado.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21671127/cereja-e-avel--ao2bjisdzq.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21671127/cereja-e-avel----copia-6u1v5lvc6w.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21671127/f2ae940e97bd8df19983c240ffe1748b-hjy1m1ymkt.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21671127/photoroom_20231216_154429-klxmvnpok4.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21671127/9a1876455d7d04113392bebee5a01fa1-1stvcb4d07.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21671127/74fa05881850199e9d85410c5271959b-6s1x97w5m8.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21671137",
+          "sku": "ART-CRJ-AVELA-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21671127/cereja-e-avel----copia-6u1v5lvc6w.png"
+        },
+        {
+          "id": "247803391",
+          "sku": "ART-CRJ-AVELA-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21671127/cereja-e-avel--ao2bjisdzq.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-cereja-com-avela-1.webp",
+        "/products/aromatizante-cereja-com-avela-2.webp",
+        "/products/aromatizante-cereja-com-avela-3.webp",
+        "/products/aromatizante-cereja-com-avela-4.webp",
+        "/products/aromatizante-cereja-com-avela-5.webp",
+        "/products/aromatizante-cereja-com-avela-6.webp"
+      ]
+    },
+    {
+      "id": "22342720",
+      "handle": "aromatizante-cha-branco",
+      "url": "https://www.aromartrios.com.br/aromatizante-cha-branco",
+      "name": "Aromatizante Chá Branco",
+      "sku": "ART-CHA-BRANCO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Chá Branco é uma fragrância leve e sofisticada, perfeita para trazer frescor e bem-estar aos dias mais quentes. Sua abertura combina a vivacidade cítrica da lima, bergamota, lavanda e limão siciliano, criando uma sensação refrescante e revigorante. No coração, um elegante buquê de violeta, jasmim, manjericão e lírio do",
+      "description_html": "<p>Chá Branco é uma fragrância leve e sofisticada, perfeita para trazer frescor e bem-estar aos dias mais quentes. Sua abertura combina a vivacidade cítrica da lima, bergamota, lavanda e limão siciliano, criando uma sensação refrescante e revigorante. No coração, um elegante buquê de violeta, jasmim, manjericão e lírio do vale adiciona um toque floral e aromático equilibrado.</p>\n<p>Por fim, a base de musk e vetiver confere profundidade e frescor terroso, proporcionando um acabamento refinado e duradouro. Uma fragrância delicada e revigorante, ideal para quem busca leveza e sofisticação.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342720/ch--branco-u8v9iry8gk.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342720/ch--branco---copia-y5nrqb8e7d.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342720/8179efadec16e2f8e7edd8dafb494361-xoy251jjjm.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342720/photoroom_20231216_154429-e0bnmob88s.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342720/424e3a33b0390e044a2b66461e3f615a-m4jg1im5o4.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342720/60dba5b0cffbc6b83d1ba224996d32ef-4ts1oegjzi.jpg"
+      ],
+      "variants": [
+        {
+          "id": "22342721",
+          "sku": "ART-CHA-BRANCO-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342720/ch--branco---copia-y5nrqb8e7d.png"
+        },
+        {
+          "id": "247646949",
+          "sku": "ART-CHA-BRANCO-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342720/ch--branco-u8v9iry8gk.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-cha-branco-1.webp",
+        "/products/aromatizante-cha-branco-2.webp",
+        "/products/aromatizante-cha-branco-3.webp",
+        "/products/aromatizante-cha-branco-4.webp",
+        "/products/aromatizante-cha-branco-5.webp",
+        "/products/aromatizante-cha-branco-6.webp"
+      ]
+    },
+    {
+      "id": "21572993",
+      "handle": "aromatizante-desejo",
+      "url": "https://www.aromartrios.com.br/aromatizante-desejo",
+      "name": "Aromatizante Desejo",
+      "sku": "ART-DESEJO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Desejo é uma fragrância sofisticada e acolhedora, ideal para criar um ambiente de relaxamento e bem-estar. Sua abertura combina a vivacidade cítrica da laranja com a suavidade aromática da lavanda, proporcionando uma sensação refrescante e equilibrada. No coração, a presença das notas de conífera e patchouli acrescenta",
+      "description_html": "<p>Desejo é uma fragrância sofisticada e acolhedora, ideal para criar um ambiente de relaxamento e bem-estar. Sua abertura combina a vivacidade cítrica da laranja com a suavidade aromática da lavanda, proporcionando uma sensação refrescante e equilibrada. No coração, a presença das notas de conífera e patchouli acrescenta um toque amadeirado e verde, evocando a tranquilidade da natureza.</p>\n<p>Por fim, a base cremosa de musk e sândalo envolve o ambiente com um acabamento suave e elegante, tornando a experiência olfativa ainda mais envolvente e harmoniosa.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21572993/desejo-fnd3ss4rx4.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21572993/desejo---copia-3nx55ph4gm.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21572993/73f5d4165a0301445e3f455436211edb-5gpqg9hmpo.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21572993/photoroom_20231216_154429-6rqcalq8o0.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21572993/2b87a0757ac7a53281d0e97714a89961-z4aafkqm4y.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21572993/be20e1c45afd8e696d62151692eab206-dtqxt1mnr4.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21572998",
+          "sku": "ART-DESEJO-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21572993/desejo---copia-3nx55ph4gm.png"
+        },
+        {
+          "id": "246357250",
+          "sku": "ART-DESEJO-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21572993/desejo-fnd3ss4rx4.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-desejo-1.webp",
+        "/products/aromatizante-desejo-2.webp",
+        "/products/aromatizante-desejo-3.webp",
+        "/products/aromatizante-desejo-4.webp",
+        "/products/aromatizante-desejo-5.webp",
+        "/products/aromatizante-desejo-6.webp"
+      ]
+    },
+    {
+      "id": "21675226",
+      "handle": "aromatizante-emporio",
+      "url": "https://www.aromartrios.com.br/aromatizante-emporio-",
+      "name": "Aromatizante Empório",
+      "sku": "ART-EMPORIO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Empório é uma fragrância revigorante e sofisticada, inspirada na leveza e frescor da brisa do mar. Sua abertura combina notas cítricas vibrantes de limão, lavanda e lima da Pérsia, criando uma sensação energizante e refrescante. No coração, a delicadeza do jasmim e do lírio se entrelaça à elegância das folhas de cedro,",
+      "description_html": "<p>Empório é uma fragrância revigorante e sofisticada, inspirada na leveza e frescor da brisa do mar. Sua abertura combina notas cítricas vibrantes de limão, lavanda e lima da Pérsia, criando uma sensação energizante e refrescante. No coração, a delicadeza do jasmim e do lírio se entrelaça à elegância das folhas de cedro, trazendo um equilíbrio floral e verde à composição.</p>\n<p>Por fim, a base de musk, bamboo e patchouli adiciona profundidade e suavidade terrosa, resultando em um aroma envolvente e harmonioso, perfeito para quem busca frescor e sofisticação.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21675226/emp-rio-s3x8xs8c9e.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21675226/emp-rio---copia-0w1g2mtoqo.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21675226/c14dd80f22b55797568b7123c8c5d6dd-4x4xrf7ghx.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21675226/photoroom_20231216_154429-4876zhjpoq.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21675226/0ee35d2ea9b2cf4584db0c5acc261e9b-raqof5qulw.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21675226/333d19239e89007e0997a134d5035553-jp860jmh60.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21675239",
+          "sku": "ART-EMPORIO-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21675226/emp-rio---copia-0w1g2mtoqo.png"
+        },
+        {
+          "id": "246117479",
+          "sku": "ART-EMPORIO-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21675226/emp-rio-s3x8xs8c9e.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-emporio-1.webp",
+        "/products/aromatizante-emporio-2.webp",
+        "/products/aromatizante-emporio-3.webp",
+        "/products/aromatizante-emporio-4.webp",
+        "/products/aromatizante-emporio-5.webp",
+        "/products/aromatizante-emporio-6.webp"
+      ]
+    },
+    {
+      "id": "21670157",
+      "handle": "aromatizante-garden",
+      "url": "https://www.aromartrios.com.br/aromatizante-garden-",
+      "name": "Aromatizante Garden",
+      "sku": "ART-GARDEN",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Garden é uma fragrância delicada e romântica, inspirada na beleza e suavidade das flores. Sua abertura fresca e vibrante combina notas cítricas de limão, lavanda e bergamota, proporcionando uma sensação leve e revigorante. No coração, um buquê elegante de peônia, jasmim e rosa revela um toque floral sofisticado e envol",
+      "description_html": "<p>Garden é uma fragrância delicada e romântica, inspirada na beleza e suavidade das flores. Sua abertura fresca e vibrante combina notas cítricas de limão, lavanda e bergamota, proporcionando uma sensação leve e revigorante. No coração, um buquê elegante de peônia, jasmim e rosa revela um toque floral sofisticado e envolvente.</p>\n<p>Finalizando a experiência, a base de âmbar, musk e sândalo adiciona profundidade e calor, criando um aroma luxuoso e inesquecível. Uma fragrância que transforma qualquer ambiente em um verdadeiro jardim encantado.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670157/garden-z19vmlgh4m.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670157/garden---copia-7nd0yqg55m.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670157/11142ff5b6e966ff76f9842439152dfc-ux34ozfvkj.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670157/e02ad018e45fbdb9fdd9bea0b4fc5a07-b4fxlwk38z.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670157/7548aaaffb248e279409d16fafc10e01-ml4wg98xb0.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670157/photoroom_20231216_154429-6ybe3vn1dl.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21670166",
+          "sku": "ART-GARDEN-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": null
+        },
+        {
+          "id": "246272764",
+          "sku": "ART-GARDEN-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-garden-1.webp",
+        "/products/aromatizante-garden-2.webp",
+        "/products/aromatizante-garden-3.webp",
+        "/products/aromatizante-garden-4.webp",
+        "/products/aromatizante-garden-5.webp",
+        "/products/aromatizante-garden-6.webp"
+      ]
+    },
+    {
+      "id": "347641016",
+      "handle": "aromatizante-lavanda",
+      "url": "https://www.aromartrios.com.br/aromatizante-lavanda",
+      "name": "Aromatizante Lavanda",
+      "sku": "ART-LAVANDA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 99.99,
+      "price_max": 99.99,
+      "available": true,
+      "seo_description": "Lavanda é uma fragrância clássica e atemporal, conhecida por seu aroma calmante e refrescante. Sua abertura é marcada pela pureza da lavanda, que exala uma sensação imediata de tranquilidade e leveza. No corpo, notas herbais e florais se entrelaçam, criando um perfume suave e equilibrado, perfeito para momentos de rela",
+      "description_html": "<p>Lavanda é uma fragrância clássica e atemporal, conhecida por seu aroma calmante e refrescante. Sua abertura é marcada pela pureza da lavanda, que exala uma sensação imediata de tranquilidade e leveza. No corpo, notas herbais e florais se entrelaçam, criando um perfume suave e equilibrado, perfeito para momentos de relaxamento.</p>\n<p>A base, com toques sutis de musk e madeiras claras, proporciona um acabamento limpo e reconfortante. Ideal para quem busca paz, bem-estar e um toque de frescor delicado no ambiente.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347641016/2f84718983677a30635ad6795b7c31d9-yxjo2zjhtn.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347641016/lavanda-aw0ob4dfju.png"
+      ],
+      "variants": [
+        {
+          "id": "347641692",
+          "sku": "ART-LAVANDA-500-ml",
+          "title": "500 Ml",
+          "price": 99.99,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347641016/lavanda-aw0ob4dfju.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-lavanda-1.webp",
+        "/products/aromatizante-lavanda-2.webp"
+      ]
+    },
+    {
+      "id": "347643481",
+      "handle": "aromatizante-lavanda-francesa",
+      "url": "https://www.aromartrios.com.br/aromatizante-lavanda-francesa",
+      "name": "Aromatizante Lavanda Francesa",
+      "sku": "ART-LAVANDA-FRA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Lavanda Francesa é uma fragrância refinada e envolvente, que traduz a elegância dos campos perfumados da Provence. A abertura combina a lavanda mais pura com um toque sutil de anis, resultando em um frescor aromático e relaxante. No coração, notas florais e verdes revelam uma delicadeza natural, que remete ao frescor d",
+      "description_html": "<p>Lavanda Francesa é uma fragrância refinada e envolvente, que traduz a elegância dos campos perfumados da Provence. A abertura combina a lavanda mais pura com um toque sutil de anis, resultando em um frescor aromático e relaxante. No coração, notas florais e verdes revelam uma delicadeza natural, que remete ao frescor das manhãs ao ar livre.</p>\n<p>A base de musk traz suavidade e aconchego, deixando um rastro leve e sofisticado no ar. Ideal para quem busca serenidade, elegância e um aroma clássico com um toque francês.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347643481/e29769823bd232547d35d95ef62588c8-adx4l6y39z.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347643481/lavanda-francesa-cwuhesbphp.png"
+      ],
+      "variants": [
+        {
+          "id": "347643632",
+          "sku": "ART-LAVANDA-FRA-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-lavanda-francesa-1.webp",
+        "/products/aromatizante-lavanda-francesa-2.webp"
+      ]
+    },
+    {
+      "id": "21672679",
+      "handle": "aromatizante-mandarim",
+      "url": "https://www.aromartrios.com.br/aromatizante-mandarim",
+      "name": "Aromatizante Mandarim",
+      "sku": "ART-MANDARIM",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Fragrâncias"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 89.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Mandarim é uma fragrância energizante e equilibrada, ideal para o uso diário. Sua abertura cítrica, com notas de mandarina, limão e sálvia, proporciona uma sensação refrescante e revigorante. No coração, a lavanda, o alecrim e o gerânio trazem um toque aromático e herbal, criando um equilíbrio perfeito entre frescor e ",
+      "description_html": "<p>Mandarim é uma fragrância energizante e equilibrada, ideal para o uso diário. Sua abertura cítrica, com notas de mandarina, limão e sálvia, proporciona uma sensação refrescante e revigorante. No coração, a lavanda, o alecrim e o gerânio trazem um toque aromático e herbal, criando um equilíbrio perfeito entre frescor e sofisticação. A base de musk e sândalo adiciona uma suavidade acolhedora e envolvente, finalizando a fragrância com um acabamento suave e elegante.</p>\n<p>Uma opção versátil e vibrante para qualquer momento do dia.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672679/mandarim-0tqwn4wcnt.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672679/mandarim---copia-xmynw0ne5w.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672679/17f6a5ba02882a31455cbe0d1a1bde1f-vqohz12so4.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672679/photoroom_20231216_154429-wuusiaacrb.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672679/2bbd4eeb59769263ab2d15a8e3fcaca3-zp8e6u9jzs.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672679/7a1459660142860fa9ccfe35fa797e77-8mvwo71udb.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21672708",
+          "sku": "ART-MANDARIM-1-litro",
+          "title": "1 Litro",
+          "price": 129.9,
+          "compare_at_price": 159.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672679/mandarim---copia-xmynw0ne5w.png"
+        },
+        {
+          "id": "248671741",
+          "sku": "ART-MANDARIM-500-ml",
+          "title": "500 Ml",
+          "price": 89.9,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672679/mandarim-0tqwn4wcnt.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-mandarim-1.webp",
+        "/products/aromatizante-mandarim-2.webp",
+        "/products/aromatizante-mandarim-3.webp",
+        "/products/aromatizante-mandarim-4.webp",
+        "/products/aromatizante-mandarim-5.webp",
+        "/products/aromatizante-mandarim-6.webp"
+      ]
+    },
+    {
+      "id": "21670225",
+      "handle": "aromatizante-monet",
+      "url": "https://www.aromartrios.com.br/aromatizante-monet",
+      "name": "Aromatizante Monet",
+      "sku": "ART-MONET",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 89.9,
+      "price_max": 750.0,
+      "available": true,
+      "seo_description": "Monet é uma fragrância luxuosa e cativante, perfeita para momentos especiais. Sua abertura, com tangerina sanguínea e canela, traz uma combinação quente e envolvente que desperta os sentidos. No coração, as notas de tabaco e mirra adicionam uma profundidade rica e intrigante, criando um contraste misterioso e sofistica",
+      "description_html": "<p>Monet é uma fragrância luxuosa e cativante, perfeita para momentos especiais. Sua abertura, com tangerina sanguínea e canela, traz uma combinação quente e envolvente que desperta os sentidos. No coração, as notas de tabaco e mirra adicionam uma profundidade rica e intrigante, criando um contraste misterioso e sofisticado. A base de patchouli e fava-tonka confere um acabamento elegante e duradouro, deixando um rastro memorável e refinado.</p>\n<p>Uma fragrância sedutora, ideal para quem deseja marcar presença com classe e intensidade.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670225/monet-wp20yunff7.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670225/monet---copia-fs78sq4v15.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670225/d40e362c9365e28821d39000f01e96d1-khsitwdvsi.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670225/photoroom_20231216_154429-es3c9lolhr.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670225/7d2fd591fd01b7a4989bf491fc676f58-hgkzihb5lz.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670225/82bb278e258bf5daaa1effef7c6f78b4-hxxkwaywqs.jpg"
+      ],
+      "variants": [
+        {
+          "id": "22343146",
+          "sku": "ART-MONET-5-litros",
+          "title": "5 Litros",
+          "price": 750.0,
+          "compare_at_price": 850.0,
+          "available": true,
+          "image": null
+        },
+        {
+          "id": "21670228",
+          "sku": "ART-MONET-1-litro",
+          "title": "1 Litro",
+          "price": 129.9,
+          "compare_at_price": 159.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670225/monet---copia-fs78sq4v15.png"
+        },
+        {
+          "id": "249559081",
+          "sku": "ART-MONET-500-ml",
+          "title": "500 Ml",
+          "price": 89.9,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670225/monet-wp20yunff7.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-monet-1.webp",
+        "/products/aromatizante-monet-2.webp",
+        "/products/aromatizante-monet-3.webp",
+        "/products/aromatizante-monet-4.webp",
+        "/products/aromatizante-monet-5.webp",
+        "/products/aromatizante-monet-6.webp"
+      ]
+    },
+    {
+      "id": "21670207",
+      "handle": "aromatizante-morango-com-champagne",
+      "url": "https://www.aromartrios.com.br/aromatizante-morango-com-champagne",
+      "name": "Aromatizante Morango com Champagne",
+      "sku": "ART-MOR-CHAMP",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 79.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Morango & Champanhe é uma fragrância alegre e vibrante, perfeita para momentos de celebração e festa. A fusão de notas frutadas de morango com o frescor efervescente do champanhe cria uma experiência olfativa encantadora e refrescante. Toques florais delicados adicionam uma suavidade envolvente, tornando-a a escolha id",
+      "description_html": "<p>Morango &amp; Champanhe é uma fragrância alegre e vibrante, perfeita para momentos de celebração e festa. A fusão de notas frutadas de morango com o frescor efervescente do champanhe cria uma experiência olfativa encantadora e refrescante.</p>\n<p>Toques florais delicados adicionam uma suavidade envolvente, tornando-a a escolha ideal para quem busca um aroma doce, festivo e cativante. Uma fragrância que traz a energia e a leveza de um brinde inesquecível.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670207/morango-ao72freuu1.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670207/morango---copia-wrjlyaou18.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670207/467e96a89106e15450a3ba499528d519-f50oskcw1b.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670207/photoroom_20231216_154429-a2opy7ci3i.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670207/6ee55dd0275ecf4e0bd77989c5dfab03-99y6mmqxj9.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670207/eef4b6530c6427bc9be50c0c944927e0-0mbp1x8bxr.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21670212",
+          "sku": "ART-MOR-CHAMP-1-litro",
+          "title": "1 Litro",
+          "price": 129.9,
+          "compare_at_price": 159.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670207/morango---copia-wrjlyaou18.png"
+        },
+        {
+          "id": "246280030",
+          "sku": "ART-MOR-CHAMP-500-ml",
+          "title": "500 Ml",
+          "price": 79.9,
+          "compare_at_price": 99.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670207/morango-ao72freuu1.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-morango-com-champagne-1.webp",
+        "/products/aromatizante-morango-com-champagne-2.webp",
+        "/products/aromatizante-morango-com-champagne-3.webp",
+        "/products/aromatizante-morango-com-champagne-4.webp",
+        "/products/aromatizante-morango-com-champagne-5.webp",
+        "/products/aromatizante-morango-com-champagne-6.webp"
+      ]
+    },
+    {
+      "id": "21672610",
+      "handle": "aromatizante-natural",
+      "url": "https://www.aromartrios.com.br/aromatizante-natural",
+      "name": "Aromatizante Natural",
+      "sku": "ART-NATURAL",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 89.99,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Natural é uma fragrância delicada e envolvente, perfeita para quem valoriza a harmonia entre flores e frutas. Sua abertura traz a suavidade doce da violeta, pêssego e flor de laranjeira, criando uma sensação fresca e floral. No coração, a combinação rica de rosa, cravo, jasmim e ylang ylang revela uma intensidade flora",
+      "description_html": "<p>Natural é uma fragrância delicada e envolvente, perfeita para quem valoriza a harmonia entre flores e frutas. Sua abertura traz a suavidade doce da violeta, pêssego e flor de laranjeira, criando uma sensação fresca e floral. No coração, a combinação rica de rosa, cravo, jasmim e ylang ylang revela uma intensidade floral luxuosa e cativante.</p>\n<p>Por fim, a base de cedro, sândalo, baunilha e fava tonka adiciona uma profundidade cremoso e reconfortante, oferecendo um acabamento suave e acolhedor. Uma fragrância que encanta e envolve os sentidos com sua elegância natural.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672610/natural-2kwdhviow3.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672610/natural---copia-zmeknw0xrb.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672610/06c2abfe238470daa5dbdd8719bebc33-rg6lfuksj6.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672610/photoroom_20231216_154429-78bp60i6sh.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672610/6e04c4757f5edc8e84b17049564a5fa1-j7z7rsj791.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672610/973749b3c9f2823fb174dad021669502-shl3ht4alj.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21672614",
+          "sku": "ART-NATURAL-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672610/natural---copia-zmeknw0xrb.png"
+        },
+        {
+          "id": "249514122",
+          "sku": "ART-NATURAL-500-ml",
+          "title": "500 Ml",
+          "price": 89.99,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672610/natural-2kwdhviow3.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-natural-1.webp",
+        "/products/aromatizante-natural-2.webp",
+        "/products/aromatizante-natural-3.webp",
+        "/products/aromatizante-natural-4.webp",
+        "/products/aromatizante-natural-5.webp",
+        "/products/aromatizante-natural-6.webp"
+      ]
+    },
+    {
+      "id": "347646581",
+      "handle": "aromatizante-noir-candle",
+      "url": "https://www.aromartrios.com.br/aromatizante-noir-candle",
+      "name": "Aromatizante Noir Candle",
+      "sku": "ART-NOIR-CANDLE",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 89.9,
+      "price_max": 89.9,
+      "available": true,
+      "seo_description": "Noir Candle é uma fragrância envolvente e misteriosa, perfeita para criar uma atmosfera sofisticada e intimista. Sua abertura revela notas quentes e especiadas, que despertam os sentidos com intensidade e charme. No coração, acordes amadeirados e florais se equilibram com elegância, trazendo profundidade e complexidade",
+      "description_html": "<p>Noir Candle é uma fragrância envolvente e misteriosa, perfeita para criar uma atmosfera sofisticada e intimista. Sua abertura revela notas quentes e especiadas, que despertam os sentidos com intensidade e charme. No coração, acordes amadeirados e florais se equilibram com elegância, trazendo profundidade e complexidade ao perfume.</p>\n<p>A base de âmbar, musk e madeiras nobres finaliza com um toque quente e sedutor, deixando um rastro marcante e acolhedor. Ideal para ambientes que pedem requinte, conforto e um toque de mistério.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347646581/df13f819f27de45801820b38fdfa21aa-jbcm3djh2v.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347646581/noir-candle-ar9tasz1k0.png"
+      ],
+      "variants": [
+        {
+          "id": "347646818",
+          "sku": "ART-NOIR-CANDLE-500-ml",
+          "title": "500 Ml",
+          "price": 89.9,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-noir-candle-1.webp",
+        "/products/aromatizante-noir-candle-2.webp"
+      ]
+    },
+    {
+      "id": "347650438",
+      "handle": "aromatizante-palo-santo",
+      "url": "https://www.aromartrios.com.br/aromatizante-palo-santo",
+      "name": "Aromatizante Palo Santo",
+      "sku": "ART-PALO-SANTO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Palo Santo é uma fragrância espiritual e reconfortante, inspirada na mística dessa madeira sagrada. Sua abertura é rica e terrosa, com notas amadeiradas que exalam uma sensação de tranquilidade e purificação. No coração, nuances aromáticas e suaves de resinas trazem uma profundidade acolhedora, criando uma atmosfera se",
+      "description_html": "<p>Palo Santo é uma fragrância espiritual e reconfortante, inspirada na mística dessa madeira sagrada. Sua abertura é rica e terrosa, com notas amadeiradas que exalam uma sensação de tranquilidade e purificação. No coração, nuances aromáticas e suaves de resinas trazem uma profundidade acolhedora, criando uma atmosfera serena e meditativa.</p>\n<p>A base de musk e âmbar confere um toque quente e envolvente, completando a fragrância com uma sensação duradoura de paz e equilíbrio. Ideal para quem busca introspecção, harmonia e uma conexão mais profunda com o ambiente.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347650438/788ad336fe94c62518b232556a199add-ahrlshqgi3.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347650438/palo-santo-c4j1fz294f.png"
+      ],
+      "variants": [
+        {
+          "id": "347651056",
+          "sku": "ART-PALO-SANTO-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-palo-santo-1.webp",
+        "/products/aromatizante-palo-santo-2.webp"
+      ]
+    },
+    {
+      "id": "347666090",
+      "handle": "aromatizante-paris",
+      "url": "https://www.aromartrios.com.br/aromatizante-paris",
+      "name": "Aromatizante Paris",
+      "sku": "ART-PARIS",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Paris é uma fragrância romântica e sofisticada, inspirada na elegância atemporal da capital francesa. Sua abertura revela um buquê floral encantador com notas delicadas e femininas, que despertam os sentidos com suavidade e frescor. No coração, flores nobres como rosa e jasmim se entrelaçam em perfeita harmonia, trazen",
+      "description_html": "<p>Paris é uma fragrância romântica e sofisticada, inspirada na elegância atemporal da capital francesa. Sua abertura revela um buquê floral encantador com notas delicadas e femininas, que despertam os sentidos com suavidade e frescor. No coração, flores nobres como rosa e jasmim se entrelaçam em perfeita harmonia, trazendo um toque clássico e apaixonante.</p>\n<p>A base aveludada de musk e madeiras finas oferece um acabamento envolvente e duradouro, que traduz charme, requinte e delicadeza. Ideal para quem deseja carregar consigo a essência do amor e da elegância de Paris.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347666090/c3b760baa3923a244c3226666a178ab0-p71c30768h.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347666090/paris-32zboq3fkl.png"
+      ],
+      "variants": [
+        {
+          "id": "347666164",
+          "sku": "ART-PARIS-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-paris-1.webp",
+        "/products/aromatizante-paris-2.webp"
+      ]
+    },
+    {
+      "id": "21503539",
+      "handle": "aromatizante-pink",
+      "url": "https://www.aromartrios.com.br/aromatizante-pink",
+      "name": "Aromatizante Pink",
+      "sku": "ART-PINK",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 99.99,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Pink é uma fragrância fresca e enérgica, perfeita para o ritmo dinâmico do dia a dia. Sua abertura combina o frescor revigorante do alecrim com a vivacidade cítrica da bergamota, criando uma sensação instantânea de energia. No coração, a menta, conífera e verbena se entrelaçam, oferecendo uma complexidade aromática que",
+      "description_html": "<p>Pink é uma fragrância fresca e enérgica, perfeita para o ritmo dinâmico do dia a dia. Sua abertura combina o frescor revigorante do alecrim com a vivacidade cítrica da bergamota, criando uma sensação instantânea de energia. No coração, a menta, conífera e verbena se entrelaçam, oferecendo uma complexidade aromática que desperta os sentidos. A base de musk e açúcar adiciona um toque suave e delicadamente doce, proporcionando um acabamento leve e envolvente.</p>\n<p>Uma fragrância jovem e vibrante, ideal para quem busca frescor e sofisticação em cada momento.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21503539/pink-fvold21h66.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21503539/pink---copia-rtjf4if41h.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21503539/8a4b0d723dc480ae935a438013aca7d3-q3so8eqlvx.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21503539/photoroom_20231216_154429-m2gzhmv2o9.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21503539/de802c5709a3b4c7dedb6080e0955e6f-xkk3yqx2kf.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21503539/f4a2a768869e5dabb2daa066860b7fb8-oaxrvqtzcc.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21503550",
+          "sku": "ART-PINK-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21503539/pink---copia-rtjf4if41h.png"
+        },
+        {
+          "id": "274306697",
+          "sku": "ART-PINK-500-ml",
+          "title": "500 Ml",
+          "price": 99.99,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21503539/pink-fvold21h66.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-pink-1.webp",
+        "/products/aromatizante-pink-2.webp",
+        "/products/aromatizante-pink-3.webp",
+        "/products/aromatizante-pink-4.webp",
+        "/products/aromatizante-pink-5.webp",
+        "/products/aromatizante-pink-6.webp"
+      ]
+    },
+    {
+      "id": "347668506",
+      "handle": "aromatizante-rj21",
+      "url": "https://www.aromartrios.com.br/aromatizante-rj21",
+      "name": "Aromatizante RJ21",
+      "sku": "ART-RJ21",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Fragrâncias"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "RJ21 é uma fragrância sofisticada e contemporânea, perfeita para quem valoriza elegância e presença. A abertura combina a vivacidade da lima com a suavidade aromática da lavanda, criando um início fresco e envolvente. No coração, notas discretas se entrelaçam com harmonia, preparando o caminho para uma base luxuosa e m",
+      "description_html": "<p>RJ21 é uma fragrância sofisticada e contemporânea, perfeita para quem valoriza elegância e presença. A abertura combina a vivacidade da lima com a suavidade aromática da lavanda, criando um início fresco e envolvente. No coração, notas discretas se entrelaçam com harmonia, preparando o caminho para uma base luxuosa e marcante.</p>\n<p>O fundo de musk, cashmere e ambergris proporciona um acabamento aveludado, quente e duradouro, elevando a experiência olfativa com um toque de exclusividade. Ideal para momentos que pedem distinção e charme.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347668506/143d966e4aed66618e5716c675dbc20c-7rbjpxtq7c.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347668506/rj-t8twibfv0h.png"
+      ],
+      "variants": [
+        {
+          "id": "347668573",
+          "sku": "ART-RJ21-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-rj21-1.webp",
+        "/products/aromatizante-rj21-2.webp"
+      ]
+    },
+    {
+      "id": "21672954",
+      "handle": "aromatizante-red",
+      "url": "https://www.aromartrios.com.br/aromatizante-red",
+      "name": "Aromatizante Red",
+      "sku": "ART-RED",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 79.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Red é uma fragrância feminina e sofisticada, criada para marcar presença em ocasiões especiais. Sua abertura combina a doçura exótica da lichia, a frescura da lima, o frescor frutado do morango e a leveza do acorde de frésia, oferecendo uma experiência revigorante e delicada. No coração, as notas florais de jasmim, peô",
+      "description_html": "<p>Red é uma fragrância feminina e sofisticada, criada para marcar presença em ocasiões especiais. Sua abertura combina a doçura exótica da lichia, a frescura da lima, o frescor frutado do morango e a leveza do acorde de frésia, oferecendo uma experiência revigorante e delicada. No coração, as notas florais de jasmim, peônia e orquídea trazem um toque de elegância e feminilidade, envolventes e refinadas.</p>\n<p>Por fim, a base de musk, madeiras nobres e âmbar confere uma profundidade quente e sensual, proporcionando um acabamento marcante e inesquecível. Uma fragrância que exala charme, sofisticação e sedução.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672954/red-tddnlmr732.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672954/red---copia-rchuhz23ca.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672954/b59beb0ce50a5a637814504803426ee5-5ba5g8n1z2.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672954/photoroom_20231216_154429-sh4fwddqld.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672954/c881c217f7f25dcff81bdbc86116fe4d-bgqa3buqo6.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672954/645fd9064487c59fdcd50c30ecbbfd80-g7iii5akjo.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21672965",
+          "sku": "ART-RED-1-litro",
+          "title": "1 Litro",
+          "price": 129.9,
+          "compare_at_price": 159.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672954/red---copia-rchuhz23ca.png"
+        },
+        {
+          "id": "246233060",
+          "sku": "ART-RED-500ml",
+          "title": "500 Ml",
+          "price": 79.9,
+          "compare_at_price": 99.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21672954/red-tddnlmr732.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-red-1.webp",
+        "/products/aromatizante-red-2.webp",
+        "/products/aromatizante-red-3.webp",
+        "/products/aromatizante-red-4.webp",
+        "/products/aromatizante-red-5.webp",
+        "/products/aromatizante-red-6.webp"
+      ]
+    },
+    {
+      "id": "21670437",
+      "handle": "aromatizante-secret",
+      "url": "https://www.aromartrios.com.br/aromatizante-secret",
+      "name": "Aromatizante Secret",
+      "sku": "ART-SECRET",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 99.99,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Secret é uma fragrância intensa e sofisticada, ideal para quem busca um aroma complexo e marcante. Sua abertura combina a frescura da lavanda e do gerânio com a suavidade intrigante de um acorde frutal, criando uma experiência olfativa refrescante e envolvente. No coração, as notas canforadas se mesclam ao calor do cra",
+      "description_html": "<p>Secret é uma fragrância intensa e sofisticada, ideal para quem busca um aroma complexo e marcante. Sua abertura combina a frescura da lavanda e do gerânio com a suavidade intrigante de um acorde frutal, criando uma experiência olfativa refrescante e envolvente. No coração, as notas canforadas se mesclam ao calor do cravo, à cremosidade da baunilha e à suavidade do cashmeran, resultando em uma riqueza especiada e profunda.</p>\n<p>A base de cedro, sândalo, madeiras nobres, cumarina e vetiver confere um acabamento amadeirado, elegante e duradouro, deixando um rastro de sofisticação e intensidade. Uma fragrância robusta, ideal para quem deseja um toque de mistério e poder.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670437/secret-fah34yao9a.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670437/secret---copia-21ua0y10qv.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670437/14dbae9f0801f7ce4b62f55abe100422-hdo57aqera.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670437/photoroom_20231216_154429-mu6mjgl4ud.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670437/d4e01951200d8f698c71c9b46dbc60df-tqq3k2b9sh.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670437/703c5d0544abc3e3681bebb964f49a57-wwc9v62bdi.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21670441",
+          "sku": "ART-SECRET-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670437/secret---copia-21ua0y10qv.png"
+        },
+        {
+          "id": "250989887",
+          "sku": "ART-SECRET-500-ml",
+          "title": "500 Ml",
+          "price": 99.99,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670437/secret-fah34yao9a.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-secret-1.webp",
+        "/products/aromatizante-secret-2.webp",
+        "/products/aromatizante-secret-3.webp",
+        "/products/aromatizante-secret-4.webp",
+        "/products/aromatizante-secret-5.webp",
+        "/products/aromatizante-secret-6.webp"
+      ]
+    },
+    {
+      "id": "21673035",
+      "handle": "aromatizante-summer",
+      "url": "https://www.aromartrios.com.br/aromatizante-summer",
+      "name": "Aromatizante Summer",
+      "sku": "ART-SUMMER",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Fragrâncias"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 89.99,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Summer é uma fragrância refinada e sofisticada, ideal para o homem moderno que aprecia frescor e elegância. Sua abertura, com um acorde floral suave e a delicadeza da lavanda, cria uma sensação de leveza e frescor, evocando a brisa de um dia de verão. Uma fragrância que combina suavidade e masculinidade, perfeita para ",
+      "description_html": "<p>Summer é uma fragrância refinada e sofisticada, ideal para o homem moderno que aprecia frescor e elegância. Sua abertura, com um acorde floral suave e a delicadeza da lavanda, cria uma sensação de leveza e frescor, evocando a brisa de um dia de verão.</p>\n<p>Uma fragrância que combina suavidade e masculinidade, perfeita para quem busca autenticidade e sofisticação em cada momento.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673035/summer-kzedyskyzs.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673035/summer---copia-j0705q2c9c.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673035/1e4b9b7584d32a4894a4578eadeb9033-t9zmx2kkvn.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673035/photoroom_20231216_154429-zrhha5ht1u.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673035/6fbb7b2158d0939830ecac259ee531cb-guhp690e76.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673035/cae66029d82db814fcdbb03521828c4c-qfd3o7efk9.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21673039",
+          "sku": "ART-SUMMER-1-litro",
+          "title": "1 Litro",
+          "price": 129.9,
+          "compare_at_price": 159.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673035/summer---copia-j0705q2c9c.png"
+        },
+        {
+          "id": "246228147",
+          "sku": "ART-SUMMER-500-ml",
+          "title": "500 Ml",
+          "price": 89.99,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21673035/summer-kzedyskyzs.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-summer-1.webp",
+        "/products/aromatizante-summer-2.webp",
+        "/products/aromatizante-summer-3.webp",
+        "/products/aromatizante-summer-4.webp",
+        "/products/aromatizante-summer-5.webp",
+        "/products/aromatizante-summer-6.webp"
+      ]
+    },
+    {
+      "id": "21670280",
+      "handle": "aromatizante-terra",
+      "url": "https://www.aromartrios.com.br/aromatizante-terra",
+      "name": "Aromatizante Terra PatchoulI",
+      "sku": "ART-TERRA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 159.99,
+      "available": true,
+      "seo_description": "Terra é uma fragrância intensa e marcante, perfeita para quem valoriza aromas profundos e terrosos. Sua abertura cítrica, com notas vibrantes de lima, laranja e pomelo, desperta os sentidos com uma frescor energizante. No coração, a combinação de cravo e lavanda traz uma rica fusão entre o especiado e o floral, criando",
+      "description_html": "<p>Terra é uma fragrância intensa e marcante, perfeita para quem valoriza aromas profundos e terrosos. Sua abertura cítrica, com notas vibrantes de lima, laranja e pomelo, desperta os sentidos com uma frescor energizante. No coração, a combinação de cravo e lavanda traz uma rica fusão entre o especiado e o floral, criando uma complexidade envolvente.</p>\n<p>A base de couro, vetiver, sândalo e patchouli adiciona uma profundidade robusta e sofisticada, conferindo à fragrância uma intensidade duradoura e refinada. Uma escolha imersiva para aqueles que buscam uma experiência olfativa única e poderosa.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670280/terra-3klsa40i07.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670280/terra---copia-vfhlya5w6e.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670280/49e4107bf4ebc9c4b74d1bed817236a6-jgf17r3j4v.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670280/ca89bb4c5d1c23b783f3a0bcee1fc0b1-nurvazgog2.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670280/photoroom_20231216_154429-35zo61p1ah.jpg"
+      ],
+      "variants": [
+        {
+          "id": "21670288",
+          "sku": "ART-TERRA-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670280/terra---copia-vfhlya5w6e.png"
+        },
+        {
+          "id": "246279292",
+          "sku": "ART-TERRA-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/21670280/terra-3klsa40i07.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-terra-1.webp",
+        "/products/aromatizante-terra-2.webp",
+        "/products/aromatizante-terra-3.webp",
+        "/products/aromatizante-terra-4.webp",
+        "/products/aromatizante-terra-5.webp"
+      ]
+    },
+    {
+      "id": "347669947",
+      "handle": "aromatizante-vibe",
+      "url": "https://www.aromartrios.com.br/aromatizante-vibe",
+      "name": "Aromatizante Vibe",
+      "sku": "ART-VIBE",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Vibe é uma fragrância vibrante e cheia de energia, ideal para quem vive intensamente cada momento. A saída combina o frescor do limão com o toque suculento da maçã verde, criando uma abertura leve e revigorante. No coração, o bambu e o jasmim trazem uma sensação verde e floral, equilibrando frescor e delicadeza. A base",
+      "description_html": "<p>Vibe é uma fragrância vibrante e cheia de energia, ideal para quem vive intensamente cada momento. A saída combina o frescor do limão com o toque suculento da maçã verde, criando uma abertura leve e revigorante. No coração, o bambu e o jasmim trazem uma sensação verde e floral, equilibrando frescor e delicadeza.</p>\n<p>A base de musk e cedro encerra com elegância, oferecendo um acabamento limpo, moderno e marcante. Perfeita para acompanhar sua rotina com leveza e atitude.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347669947/4978b2f766b96244db1a3024033d7ddf-xm2mss7hbm.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347669947/vibe-7obt4sdffq.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347669947/photoroom_20231216_154429-35zo61p1ah-1d8u2mrfs7.jpg"
+      ],
+      "variants": [
+        {
+          "id": "347670397",
+          "sku": "ART-VIBE-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-vibe-1.webp",
+        "/products/aromatizante-vibe-2.webp",
+        "/products/aromatizante-vibe-3.webp"
+      ]
+    },
+    {
+      "id": "22342522",
+      "handle": "aromatizante-wood",
+      "url": "https://www.aromartrios.com.br/aromatizante-wood",
+      "name": "Aromatizante Wood",
+      "sku": "ART-WOOD",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Aromatizante",
+      "collection": "aromas",
+      "collection_title": "Aromatizantes",
+      "option_name": "Tamanho da Embalagem",
+      "price_min": 129.9,
+      "price_max": 750.0,
+      "available": true,
+      "seo_description": "Wood é uma fragrância sofisticada e imponente, ideal para ambientes elegantes e de classe. Sua abertura cítrica de limão e lavanda oferece um frescor envolvente e acolhedor, convidando os sentidos a uma experiência única. No coração, as notas amadeiradas de cedro, combinadas com a suavidade do jasmim e a profundidade d",
+      "description_html": "<p>Wood é uma fragrância sofisticada e imponente, ideal para ambientes elegantes e de classe. Sua abertura cítrica de limão e lavanda oferece um frescor envolvente e acolhedor, convidando os sentidos a uma experiência única. No coração, as notas amadeiradas de cedro, combinadas com a suavidade do jasmim e a profundidade do patchouli, criam uma riqueza floral e terrosa que adiciona complexidade à composição.</p>\n<p>A base de musk e ambergris confere um acabamento suave, refinado e duradouro, deixando um rastro sofisticado que permanece por mais tempo. Uma fragrância robusta e elegante, ideal para quem busca um toque de refinamento em cada detalhe.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342522/wood-g9o1m1vppj.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342522/wood---copia-lhzrdb3olh.png",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342522/5cc944424c9834f39a36133dffe24c68-t2gxc31lej.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342522/photoroom_20231216_154429-2ns6eoha47.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342522/a44adbe9bd895a856e171e6a7ffb4995-2dj0m9b681.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342522/dab4ca48bba7efe62cc2b4bfe42a7f5e-cythrcjaf0.jpg"
+      ],
+      "variants": [
+        {
+          "id": "22342525",
+          "sku": "ART-WOOD-1-litro",
+          "title": "1 Litro",
+          "price": 159.99,
+          "compare_at_price": 179.99,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342522/wood---copia-lhzrdb3olh.png"
+        },
+        {
+          "id": "22343058",
+          "sku": "ART-WOOD-5-litros",
+          "title": "5 Litros",
+          "price": 750.0,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        },
+        {
+          "id": "246244576",
+          "sku": "ART-WOOD-500-ml",
+          "title": "500 Ml",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": "https://cdn.awsli.com.br/2500x2500/559/559239/produto/22342522/wood-g9o1m1vppj.png"
+        }
+      ],
+      "local_images": [
+        "/products/aromatizante-wood-1.webp",
+        "/products/aromatizante-wood-2.webp",
+        "/products/aromatizante-wood-3.webp",
+        "/products/aromatizante-wood-4.webp",
+        "/products/aromatizante-wood-5.webp",
+        "/products/aromatizante-wood-6.webp"
+      ]
+    },
+    {
+      "id": "326225933",
+      "handle": "difusor-alecrim",
+      "url": "https://www.aromartrios.com.br/difusor-alecrim",
+      "name": "Difusor Alecrim 250ml",
+      "sku": "DIF-ALECRIM",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Difusor de Varetas",
+      "collection": "difusores",
+      "collection_title": "Difusores",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe. O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que ",
+      "description_html": "<p><strong>Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe.</strong></p>\n<p>O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que agrega um toque de elegância à decoração.</p>\n<p>Ideal para salas, escritórios, banheiros e lavabos, transforma qualquer espaço com uma presença olfativa marcante e acolhedora.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Alecrim</strong> é uma fragrância revitalizante e natural, perfeita para quem aprecia a pureza e o frescor das ervas aromáticas.<br/>\r\nSua abertura vibrante combina notas frescas e cítricas de <strong>lavanda, alecrim, laranja e limão</strong>, proporcionando uma sensação imediata de energia e bem-estar.<br/>\r\nNo coração, um delicado equilíbrio entre <strong>flores brancas, litsea cubeba e petit grain</strong> adiciona uma suavidade floral refinada.<br/>\r\nPor fim, a base se revela com <strong>madeiras nobres, musk, pau-rosa e cedro</strong>, conferindo profundidade, calor e um toque sofisticado e envolvente.<br/>\r\nUma composição harmoniosa que perfuma e transforma qualquer ambiente com elegância e frescor.</p>\n<p><strong>Modo de uso:</strong><br/>\r\n• Remova a tampa do frasco e insira as 6 varetas de fibra para iniciar a difusão.<br/>\r\n• Para intensificar a fragrância, recomenda-se virar as varetas diariamente.<br/>\r\n• Em ambientes menores, a inversão pode ser feita uma vez por semana.</p>\n<p>A durabilidade do aroma pode variar conforme a temperatura e ventilação do ambiente, garantindo uma evaporação equilibrada e prolongada.</p>\n<p><strong>Conteúdo da embalagem:</strong><br/>\r\n• 1 Frasco de Difusor com 250ml de fragrância concentrada<br/>\r\n• 6 Varetas de fibra no modelo europeu</p>\n<p>Duração média de até <strong>90 dias</strong>, podendo se estender conforme o modo de uso.</p>\n<p><strong>Aromarts: o equilíbrio perfeito entre fragrância, bem-estar e sofisticação.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225933/aroma-sess-o1--24--k5e7y4c9en.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225933/aromas-sess-o2--12--f0cp2bfd1n.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225933/a43df93eb0ef1ba4ba00e5f984726dc4-2rcn8vfqgy.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225933/aroma-sess-o1--20--ql7lgqlucj.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225933/81994c1c768b7f923a50dfe60488b286-2z2wseb22s.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225933/aroma-sess-o1--19--cd08szrhp6.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225933/bc5859b7a6dbd5ee16409a18b1a8a387-9spzbum64q.jpg"
+      ],
+      "variants": [
+        {
+          "id": "326225933",
+          "sku": "DIF-ALECRIM",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/difusor-alecrim-1.webp",
+        "/products/difusor-alecrim-2.webp",
+        "/products/difusor-alecrim-3.webp",
+        "/products/difusor-alecrim-4.webp",
+        "/products/difusor-alecrim-5.webp",
+        "/products/difusor-alecrim-6.webp"
+      ]
+    },
+    {
+      "id": "347677179",
+      "handle": "difusor-bamboo-250ml",
+      "url": "https://www.aromartrios.com.br/difusor-bamboo-250ml",
+      "name": "Difusor Bamboo - 250ml",
+      "sku": "DIF-BAMBOO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Difusores",
+        "Artesanal"
+      ],
+      "product_type": "Difusor de Varetas",
+      "collection": "difusores",
+      "collection_title": "Difusores",
+      "option_name": null,
+      "price_min": 99.99,
+      "price_max": 99.99,
+      "available": true,
+      "seo_description": "Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe. O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que ",
+      "description_html": "<p><strong>Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe.</strong></p>\n<p>O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que agrega um toque de elegância à decoração.</p>\n<p>Ideal para salas, escritórios, banheiros e lavabos, transforma qualquer espaço com uma presença olfativa marcante e acolhedora.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Bamboo</strong> é uma fragrância delicada e harmoniosa, ideal para criar uma atmosfera de serenidade e bem-estar. Sua abertura combina o frescor verde do <strong>bamboo</strong> com a vivacidade cítrica da <strong>bergamota</strong>, trazendo uma sensação revigorante e leve.<br/>\r\nNo coração, a sofisticação do <strong>jacinto</strong> e a suavidade do <strong>jasmim</strong> se entrelaçam em um buquê floral equilibrado e elegante.<br/>\r\nPor fim, a base de <strong>musk</strong> e <strong>madeira aveludada</strong> envolve o ambiente com um toque suave e acolhedor, garantindo um aroma refinado e reconfortante.</p>\n<p><strong>Modo de uso:</strong><br/>\r\n• Remova a tampa do frasco e insira as 6 varetas de fibra para iniciar a difusão.<br/>\r\n• Para intensificar a fragrância, recomenda-se virar as varetas diariamente.<br/>\r\n• Em ambientes menores, a inversão pode ser feita uma vez por semana.</p>\n<p>A durabilidade do aroma pode variar conforme a temperatura e ventilação do ambiente, garantindo uma evaporação equilibrada e prolongada.</p>\n<p><strong>Conteúdo da embalagem:</strong><br/>\r\n• 1 Frasco de Difusor com 250ml de fragrância concentrada<br/>\r\n• 6 Varetas de fibra no modelo europeu</p>\n<p>Duração média de até <strong>90 dias</strong>, podendo se estender conforme o modo de uso.</p>\n<p><strong>Aromarts: o equilíbrio perfeito entre fragrância, bem-estar e sofisticação.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347677179/aroma-sess-o1--23--p8z3kvzui2.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347677179/aromas-sess-o2--16--vfpyxguny1.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347677179/62d18946986c238e9e12555c1377c660-lq044fr9l2.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347677179/aroma-sess-o1--21--o63g63ub6j.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347677179/316ffaa3fe8d5dcdab5894b6d8cba1d6-6bofbh76k1.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347677179/aroma-sess-o1--18--79xk45vgfv.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347677179/4db936666aaefc268e1fe8f9d681f193-6evmxskq0u.jpg"
+      ],
+      "variants": [
+        {
+          "id": "347677179",
+          "sku": "DIF-BAMBOO",
+          "title": "Padrão",
+          "price": 99.99,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/difusor-bamboo-250ml-1.webp",
+        "/products/difusor-bamboo-250ml-2.webp",
+        "/products/difusor-bamboo-250ml-3.webp",
+        "/products/difusor-bamboo-250ml-4.webp",
+        "/products/difusor-bamboo-250ml-5.webp",
+        "/products/difusor-bamboo-250ml-6.webp"
+      ]
+    },
+    {
+      "id": "326225039",
+      "handle": "difusor-cha-branco",
+      "url": "https://www.aromartrios.com.br/difusor-cha-branco",
+      "name": "Difusor Chá Branco 250ml",
+      "sku": "DIF-CHA-BRANCO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Difusor de Varetas",
+      "collection": "difusores",
+      "collection_title": "Difusores",
+      "option_name": null,
+      "price_min": 89.9,
+      "price_max": 89.9,
+      "available": true,
+      "seo_description": "Chá Branco é uma fragrância leve e sofisticada, perfeita para trazer frescor e bem-estar aos dias mais quentes. Sua abertura combina a vivacidade cítrica da lima, bergamota, lavanda e limão siciliano, criando uma sensação refrescante e revigorante. No coração, um elegante buquê de violeta, jasmim, manjericão e lírio do",
+      "description_html": "<p>Chá Branco é uma fragrância leve e sofisticada, perfeita para trazer frescor e bem-estar aos dias mais quentes. Sua abertura combina a vivacidade cítrica da lima, bergamota, lavanda e limão siciliano, criando uma sensação refrescante e revigorante. No coração, um elegante buquê de violeta, jasmim, manjericão e lírio do vale adiciona um toque floral e aromático equilibrado.</p>\n<p>Por fim, a base de musk e vetiver confere profundidade e frescor terroso, proporcionando um acabamento refinado e duradouro. Uma fragrância delicada e revigorante, ideal para quem busca leveza e sofisticação.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225039/aroma-sess-o1--15--88edesczw3.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225039/aromas-sess-o2--15--akk8g249g3.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225039/a6472233c33e045f15813886924a0534-ncww9cdd2h.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225039/aroma-sess-o1--22--be9yuezzz9.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225039/fc6a97f3329bc8979fe249b5dc98dce0-c5785ci55g.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225039/aroma-sess-o1--17--mtfk6obxxk.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225039/556f060644faebf9c82fc9fa9ef6c3e6-wbg6v1982v.jpg"
+      ],
+      "variants": [
+        {
+          "id": "326225039",
+          "sku": "DIF-CHA-BRANCO",
+          "title": "Padrão",
+          "price": 89.9,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/difusor-cha-branco-1.webp",
+        "/products/difusor-cha-branco-2.webp",
+        "/products/difusor-cha-branco-3.webp",
+        "/products/difusor-cha-branco-4.webp",
+        "/products/difusor-cha-branco-5.webp",
+        "/products/difusor-cha-branco-6.webp"
+      ]
+    },
+    {
+      "id": "326224320",
+      "handle": "difusor-emporio",
+      "url": "https://www.aromartrios.com.br/difusor-emporio",
+      "name": "Difusor Empório 250ml",
+      "sku": "DIF-EMPORIO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Difusores"
+      ],
+      "product_type": "Difusor de Varetas",
+      "collection": "difusores",
+      "collection_title": "Difusores",
+      "option_name": null,
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe. O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que ",
+      "description_html": "<p><strong>Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe.</strong></p>\n<p>O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que agrega um toque de elegância à decoração.</p>\n<p>Ideal para salas, escritórios, banheiros e lavabos, transforma qualquer espaço com uma presença olfativa marcante e acolhedora.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Empório</strong> é uma fragrância rica e envolvente, criada para quem aprecia um aroma clássico e sofisticado.<br/>\r\nSua abertura traz um toque fresco e energético de <strong>bergamota</strong> e <strong>laranja</strong>, misturados com a suavidade do <strong>vetiver</strong> e um leve toque herbáceo, criando uma sensação revigorante e refinada.<br/>\r\nNo coração, a composição de <strong>jasmim</strong>, <strong>muguet</strong> e <strong>gerânio</strong> confere um toque floral delicado, enquanto a base de <strong>cedro</strong>, <strong>sândalo</strong> e <strong>âmbar</strong> adiciona um fundo amadeirado e quente, criando um rastro de sofisticação e elegância.</p>\n<p><strong>Modo de uso:</strong><br/>\r\n• Remova a tampa do frasco e insira as 6 varetas de fibra para iniciar a difusão.<br/>\r\n• Para intensificar a fragrância, recomenda-se virar as varetas diariamente.<br/>\r\n• Em ambientes menores, a inversão pode ser feita uma vez por semana.</p>\n<p>A durabilidade do aroma pode variar conforme a temperatura e ventilação do ambiente, garantindo uma evaporação equilibrada e prolongada.</p>\n<p><strong>Conteúdo da embalagem:</strong><br/>\r\n• 1 Frasco de Difusor com 250ml de fragrância concentrada<br/>\r\n• 6 Varetas de fibra no modelo europeu</p>\n<p>Duração média de até <strong>90 dias</strong>, podendo se estender conforme o modo de uso.</p>\n<p><strong>Aromarts: o equilíbrio perfeito entre fragrância, bem-estar e sofisticação.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326224320/aroma-sess-o1--24--ckg08peua7.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326224320/aromas-sess-o2--12--ed9twga2jw.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326224320/aroma-sess-o1--20--j2aij2hlsk.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326224320/aroma-sess-o1--19--qk76ivbojn.jpg"
+      ],
+      "variants": [
+        {
+          "id": "326224320",
+          "sku": "DIF-EMPORIO",
+          "title": "Padrão",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/difusor-emporio-1.webp",
+        "/products/difusor-emporio-2.webp",
+        "/products/difusor-emporio-3.webp",
+        "/products/difusor-emporio-4.webp"
+      ]
+    },
+    {
+      "id": "326226105",
+      "handle": "difusor-garden",
+      "url": "https://www.aromartrios.com.br/difusor-garden",
+      "name": "Difusor Garden 250ml",
+      "sku": "DIF-GARDEN",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Difusor de Varetas",
+      "collection": "difusores",
+      "collection_title": "Difusores",
+      "option_name": null,
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe. O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que ",
+      "description_html": "<p><strong>Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe.</strong></p>\n<p>O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que agrega um toque de elegância à decoração.</p>\n<p>Ideal para salas, escritórios, banheiros e lavabos, transforma qualquer espaço com uma presença olfativa marcante e acolhedora.</p>\n<p><strong>Sobre a fragrância:</strong><br/><strong>Garden</strong> é uma fragrância fresca e floral, perfeita para quem deseja trazer leveza e harmonia ao ambiente.<br/>Sua abertura combina o toque verde das folhas frescas com a suavidade da lavanda, criando uma sensação de frescor natural e revigorante.<br/>No coração, um buquê elegante de <strong>rosas</strong>, <strong>muguet</strong> e <strong>jasmim</strong> transmite a delicadeza dos jardins floridos. Finalizando, a base de <strong>musk branco</strong> e <strong>madeiras suaves</strong> envolve o espaço com um aroma limpo, leve e acolhedor. Uma fragrância versátil e encantadora, que transforma qualquer ambiente em um refúgio de tranquilidade.</p>\n<p><strong>Modo de uso:</strong><br/>• Remova a tampa do frasco e insira as 6 varetas de fibra para iniciar a difusão.<br/>• Para intensificar a fragrância, recomenda-se virar as varetas diariamente.<br/>• Em ambientes menores, a inversão pode ser feita uma vez por semana.</p>\n<p>A durabilidade do aroma pode variar conforme a temperatura e ventilação do ambiente, garantindo uma evaporação equilibrada e prolongada.</p>\n<p><strong>Conteúdo da embalagem:</strong><br/>• 1 Frasco de Difusor com 250ml de fragrância concentrada<br/>• 6 Varetas de fibra no modelo europeu</p>\n<p>Duração média de até <strong>90 dias</strong>, podendo se estender conforme o modo de uso.</p>\n<p><strong>Aromarts: o equilíbrio perfeito entre fragrância, bem-estar e sofisticação.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326226105/aroma-sess-o1--24--z2r9mmf8nw.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326226105/aromas-sess-o2--12--gfkifbtn4r.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326226105/e78ef94e48f489bb4097ec971ffa5c14-8o0by5c8cz.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326226105/aroma-sess-o1--20--esb5ld0k7n.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326226105/05be8ece6d02d01eb18b90f4879ae191-fpvpp35f5p.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326226105/aroma-sess-o1--19--e844nd4kxh.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326226105/2b03a5d0c3f102a96c2db4ebb471e495-xntqdi0dmi.jpg"
+      ],
+      "variants": [
+        {
+          "id": "326226105",
+          "sku": "DIF-GARDEN",
+          "title": "Padrão",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/difusor-garden-1.webp",
+        "/products/difusor-garden-2.webp",
+        "/products/difusor-garden-3.webp",
+        "/products/difusor-garden-4.webp",
+        "/products/difusor-garden-5.webp",
+        "/products/difusor-garden-6.webp"
+      ]
+    },
+    {
+      "id": "326226011",
+      "handle": "difusor-lavanda-francesa",
+      "url": "https://www.aromartrios.com.br/difusor-lavanda-francesa",
+      "name": "Difusor Lavanda Francesa 250ml",
+      "sku": "DIF-LAV-FRANCESA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Difusores"
+      ],
+      "product_type": "Difusor de Varetas",
+      "collection": "difusores",
+      "collection_title": "Difusores",
+      "option_name": null,
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe. O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que ",
+      "description_html": "<p><strong>Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe.</strong></p>\n<p>O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que agrega um toque de elegância à decoração.</p>\n<p>Ideal para salas, escritórios, banheiros e lavabos, transforma qualquer espaço com uma presença olfativa marcante e acolhedora.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Lavanda Francesa</strong> é uma fragrância clássica, calmante e refinada, inspirada nos campos floridos do sul da França.<br/>\r\nSua abertura traz o frescor aromático da <strong>lavanda pura</strong>, combinada com toques sutis de <strong>bergamota</strong> e <strong>eucalipto</strong>, promovendo uma sensação imediata de relaxamento e leveza.<br/>\r\nNo coração, notas de <strong>rosa branca</strong> e <strong>camomila</strong> enriquecem a composição com suavidade floral. Para finalizar, a base de <strong>musk</strong>, <strong>cedro</strong> e <strong>âmbar claro</strong> envolve o ambiente com um aroma limpo, acolhedor e duradouro. Uma fragrância perfeita para quem busca serenidade e elegância no dia a dia.</p>\n<p><strong>Modo de uso:</strong><br/>\r\n• Remova a tampa do frasco e insira as 6 varetas de fibra para iniciar a difusão.<br/>\r\n• Para intensificar a fragrância, recomenda-se virar as varetas diariamente.<br/>\r\n• Em ambientes menores, a inversão pode ser feita uma vez por semana.</p>\n<p>A durabilidade do aroma pode variar conforme a temperatura e ventilação do ambiente, garantindo uma evaporação equilibrada e prolongada.</p>\n<p><strong>Conteúdo da embalagem:</strong><br/>\r\n• 1 Frasco de Difusor com 250ml de fragrância concentrada<br/>\r\n• 6 Varetas de fibra no modelo europeu</p>\n<p>Duração média de até <strong>90 dias</strong>, podendo se estender conforme o modo de uso.</p>\n<p><strong>Aromarts: o equilíbrio perfeito entre fragrância, bem-estar e sofisticação.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326226011/aroma-sess-o1--23--fhjsr6qapg.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326226011/aromas-sess-o2--16--sbudl1v9aa.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326226011/aroma-sess-o1--21--qae433pbna.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326226011/aroma-sess-o1--18--sot36ypx6q.jpg"
+      ],
+      "variants": [
+        {
+          "id": "326226011",
+          "sku": "DIF-LAV-FRANCESA",
+          "title": "Padrão",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/difusor-lavanda-francesa-1.webp",
+        "/products/difusor-lavanda-francesa-2.webp",
+        "/products/difusor-lavanda-francesa-3.webp",
+        "/products/difusor-lavanda-francesa-4.webp"
+      ]
+    },
+    {
+      "id": "347688809",
+      "handle": "difusor-noir-candle-250ml",
+      "url": "https://www.aromartrios.com.br/-difusor-noir-candle-250ml",
+      "name": "Difusor Noir Candle 250ml",
+      "sku": "DIF-NOIR-CANDLE",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Difusor de Varetas",
+      "collection": "difusores",
+      "collection_title": "Difusores",
+      "option_name": null,
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe. O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que ",
+      "description_html": "<p><strong>Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe.</strong></p>\n<p>O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que agrega um toque de elegância à decoração.</p>\n<p>Ideal para salas, escritórios, banheiros e lavabos, transforma qualquer espaço com uma presença olfativa marcante e acolhedora.</p>\n<p><strong>Sobre a fragrância:</strong><br/><strong>Noir Candle</strong> é uma fragrância envolvente e misteriosa, perfeita para criar uma atmosfera sofisticada e intimista. Sua abertura revela <strong>notas quentes e especiadas</strong>, que despertam os sentidos com intensidade e charme.<br/>No coração, <strong>acordes amadeirados e florais</strong> se equilibram com elegância, trazendo profundidade e complexidade ao perfume.<br/>A base de <strong>âmbar</strong>, <strong>musk</strong> e <strong>madeiras nobres</strong> finaliza com um toque quente e sedutor, deixando um rastro marcante e acolhedor.<br/>Ideal para ambientes que pedem requinte, conforto e um toque de mistério.</p>\n<p><strong>Modo de uso:</strong><br/>• Remova a tampa do frasco e insira as 6 varetas de fibra para iniciar a difusão.<br/>• Para intensificar a fragrância, recomenda-se virar as varetas diariamente.<br/>• Em ambientes menores, a inversão pode ser feita uma vez por semana.</p>\n<p>A durabilidade do aroma pode variar conforme a temperatura e ventilação do ambiente, garantindo uma evaporação equilibrada e prolongada.</p>\n<p><strong>Conteúdo da embalagem:</strong><br/>• 1 Frasco de Difusor com 250ml de fragrância concentrada<br/>• 6 Varetas de fibra no modelo europeu</p>\n<p>Duração média de até <strong>90 dias</strong>, podendo se estender conforme o modo de uso.</p>\n<p><strong>Aromarts: o equilíbrio perfeito entre fragrância, bem-estar e sofisticação.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347688809/aroma-sess-o1--15--yt2kxi7h0s.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347688809/aromas-sess-o2--15--hoaudcsm4d.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347688809/6231f06ca2f988584ce2dd9c52563d89-7talkxvzua.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347688809/aroma-sess-o1--22--gk0yng30bu.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347688809/cdd06d7657019bb01bb3d0e7efe5cbe1-9w1532inrm.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347688809/aroma-sess-o1--17--ak4xzue8bf.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347688809/81c17693a408717504958cee1c18bb16-1c6ofogzpc.jpg"
+      ],
+      "variants": [
+        {
+          "id": "347688809",
+          "sku": "DIF-NOIR-CANDLE",
+          "title": "Padrão",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/difusor-noir-candle-250ml-1.webp",
+        "/products/difusor-noir-candle-250ml-2.webp",
+        "/products/difusor-noir-candle-250ml-3.webp",
+        "/products/difusor-noir-candle-250ml-4.webp",
+        "/products/difusor-noir-candle-250ml-5.webp",
+        "/products/difusor-noir-candle-250ml-6.webp"
+      ]
+    },
+    {
+      "id": "326225668",
+      "handle": "difusor-orquidea-negra",
+      "url": "https://www.aromartrios.com.br/difusor-orquidea-negra",
+      "name": "Difusor Orquídea Negra 250ml",
+      "sku": "DIF-ORQ-NEGRA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Difusor de Varetas",
+      "collection": "difusores",
+      "collection_title": "Difusores",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe. O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que ",
+      "description_html": "<p><strong>Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe.</strong></p>\n<p>O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que agrega um toque de elegância à decoração.</p>\n<p>Ideal para salas, escritórios, banheiros e lavabos, transforma qualquer espaço com uma presença olfativa marcante e acolhedora.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Orquídea Negra</strong> é uma fragrância intensa, misteriosa e sofisticada, perfeita para quem busca um aroma marcante e envolvente.<br/>\r\nA abertura combina notas frutadas e frescas de <strong>bergamota e groselha preta</strong>, despertando os sentidos com elegância. No coração, a <strong>orquídea negra</strong> revela toda sua sensualidade floral, enriquecida com toques de <strong>ylang-ylang</strong> e <strong>lótus</strong>, criando uma aura exótica e refinada. Por fim, a base de <strong>âmbar, patchouli e baunilha</strong> proporciona um acabamento quente e duradouro, deixando um rastro de sofisticação e presença. Uma fragrância perfeita para transformar qualquer ambiente com charme e intensidade.</p>\n<p><strong>Modo de uso:</strong><br/>\r\n• Remova a tampa do frasco e insira as 6 varetas de fibra para iniciar a difusão.<br/>\r\n• Para intensificar a fragrância, recomenda-se virar as varetas diariamente.<br/>\r\n• Em ambientes menores, a inversão pode ser feita uma vez por semana.</p>\n<p>A durabilidade do aroma pode variar conforme a temperatura e ventilação do ambiente, garantindo uma evaporação equilibrada e prolongada.</p>\n<p><strong>Conteúdo da embalagem:</strong><br/>\r\n• 1 Frasco de Difusor com 250ml de fragrância concentrada<br/>\r\n• 6 Varetas de fibra no modelo europeu</p>\n<p>Duração média de até <strong>90 dias</strong>, podendo se estender conforme o modo de uso.</p>\n<p><strong>Aromarts: o equilíbrio perfeito entre fragrância, bem-estar e sofisticação.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225668/aroma-sess-o1--15--rtt1f3ym9y.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225668/aromas-sess-o2--15--9smj4vgjft.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225668/880b1d7efe52c2b9a693b4e10c89d699-hk2cqsgrn3.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225668/aroma-sess-o1--22--zkg21w4aq9.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225668/6306a1753240d10f43d1719292bb08fb-gdodchgmlk.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225668/aroma-sess-o1--17--3rhf1vq7rv.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225668/6fe4583a1fa94085cd29a0d9639df30c-8gagag5kn4.jpg"
+      ],
+      "variants": [
+        {
+          "id": "326225668",
+          "sku": "DIF-ORQ-NEGRA",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": 129.9,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/difusor-orquidea-negra-1.webp",
+        "/products/difusor-orquidea-negra-2.webp",
+        "/products/difusor-orquidea-negra-3.webp",
+        "/products/difusor-orquidea-negra-4.webp",
+        "/products/difusor-orquidea-negra-5.webp",
+        "/products/difusor-orquidea-negra-6.webp"
+      ]
+    },
+    {
+      "id": "326225577",
+      "handle": "difusor-palo-santo",
+      "url": "https://www.aromartrios.com.br/difusor-palo-santo",
+      "name": "Difusor Palo Santo 250ml",
+      "sku": "DIF-PALO-SANTO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Difusor de Varetas",
+      "collection": "difusores",
+      "collection_title": "Difusores",
+      "option_name": null,
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe. O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que ",
+      "description_html": "<p><strong>Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe.</strong></p>\n<p>O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que agrega um toque de elegância à decoração.</p>\n<p>Ideal para salas, escritórios, banheiros e lavabos, transforma qualquer espaço com uma presença olfativa marcante e acolhedora.</p>\n<p><strong>Sobre a fragrância:</strong><br/><strong>Palo Santo</strong> é uma fragrância mística e reconfortante, ideal para quem busca equilíbrio, espiritualidade e bem-estar. Sua abertura revela notas suaves e amadeiradas que remetem à madeira aromática tradicionalmente usada em rituais de purificação. No coração, o aroma quente e resinoso do <strong>Palo Santo</strong> se mistura com toques herbais e levemente cítricos, promovendo uma sensação de limpeza energética e serenidade. A base de <strong>âmbar, cedro e musk</strong> intensifica a profundidade e prolonga a experiência olfativa com um rastro acolhedor e refinado. Uma fragrância que transforma o ambiente, trazendo paz, conexão e sofisticação.</p>\n<p><strong>Modo de uso:</strong><br/>• Remova a tampa do frasco e insira as 6 varetas de fibra para iniciar a difusão.<br/>• Para intensificar a fragrância, recomenda-se virar as varetas diariamente.<br/>• Em ambientes menores, a inversão pode ser feita uma vez por semana.</p>\n<p>A durabilidade do aroma pode variar conforme a temperatura e ventilação do ambiente, garantindo uma evaporação equilibrada e prolongada.</p>\n<p><strong>Conteúdo da embalagem:</strong><br/>• 1 Frasco de Difusor com 250ml de fragrância concentrada<br/>• 6 Varetas de fibra no modelo europeu</p>\n<p>Duração média de até <strong>90 dias</strong>, podendo se estender conforme o modo de uso.</p>\n<p><strong>Aromarts: o equilíbrio perfeito entre fragrância, bem-estar e sofisticação.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225577/aroma-sess-o1--15--3kmklk1y1c.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225577/aromas-sess-o2--15--59hvx7lmq7.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225577/c2cfd4556c968ea4c90ae4727e4ad656-tqyq8g36dd.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225577/aroma-sess-o1--22--750y2d1lvr.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225577/119fd236d0f13bd0e4a503c46d43152c-pu8jm7bft1.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225577/aroma-sess-o1--17--s9d9x4gxn6.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225577/23989a234546a6a148dcabc42c0bdbea-nuz42jna7l.jpg"
+      ],
+      "variants": [
+        {
+          "id": "326225577",
+          "sku": "DIF-PALO-SANTO",
+          "title": "Padrão",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/difusor-palo-santo-1.webp",
+        "/products/difusor-palo-santo-2.webp",
+        "/products/difusor-palo-santo-3.webp",
+        "/products/difusor-palo-santo-4.webp",
+        "/products/difusor-palo-santo-5.webp",
+        "/products/difusor-palo-santo-6.webp"
+      ]
+    },
+    {
+      "id": "326225113",
+      "handle": "difusor-paris",
+      "url": "https://www.aromartrios.com.br/difusor-paris",
+      "name": "Difusor Paris",
+      "sku": "DIF-PARIS",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Difusores"
+      ],
+      "product_type": "Difusor de Varetas",
+      "collection": "difusores",
+      "collection_title": "Difusores",
+      "option_name": null,
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe. O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que ",
+      "description_html": "<p><strong>Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe.</strong></p>\n<p>O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que agrega um toque de elegância à decoração.</p>\n<p>Ideal para salas, escritórios, banheiros e lavabos, transforma qualquer espaço com uma presença olfativa marcante e acolhedora.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Paris</strong> é uma fragrância romântica e encantadora, inspirada na elegância e charme da capital francesa. Sua saída é marcada por notas florais delicadas e levemente adocicadas, que evocam a sensação de caminhar por jardins parisienses em plena primavera. No coração, o toque refinado de rosas, peônias e flores brancas revela um buquê envolvente e feminino. A base de âmbar e musk acrescenta calor, sofisticação e durabilidade, deixando um rastro suave, acolhedor e inesquecível. Uma fragrância que transforma o ambiente em um cenário de puro encanto e beleza.</p>\n<p><strong>Modo de uso:</strong><br/>\r\n• Remova a tampa do frasco e insira as 6 varetas de fibra para iniciar a difusão.<br/>\r\n• Para intensificar a fragrância, recomenda-se virar as varetas diariamente.<br/>\r\n• Em ambientes menores, a inversão pode ser feita uma vez por semana.</p>\n<p>A durabilidade do aroma pode variar conforme a temperatura e ventilação do ambiente, garantindo uma evaporação equilibrada e prolongada.</p>\n<p><strong>Conteúdo da embalagem:</strong><br/>\r\n• 1 Frasco de Difusor com 250ml de fragrância concentrada<br/>\r\n• 6 Varetas de fibra no modelo europeu</p>\n<p>Duração média de até <strong>90 dias</strong>, podendo se estender conforme o modo de uso.</p>\n<p><strong>Aromarts: o equilíbrio perfeito entre fragrância, bem-estar e sofisticação.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225113/aroma-sess-o1--24--plf9j6ibu0.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225113/aromas-sess-o2--12--eez4hl11gm.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225113/aroma-sess-o1--20--gyh0ys8u1i.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/326225113/aroma-sess-o1--19--ri980nvfl2.jpg"
+      ],
+      "variants": [
+        {
+          "id": "326225113",
+          "sku": "DIF-PARIS",
+          "title": "Padrão",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/difusor-paris-1.webp",
+        "/products/difusor-paris-2.webp",
+        "/products/difusor-paris-3.webp",
+        "/products/difusor-paris-4.webp"
+      ]
+    },
+    {
+      "id": "347695749",
+      "handle": "difusor-wood-250ml",
+      "url": "https://www.aromartrios.com.br/difusor-wood-250ml",
+      "name": "Difusor Wood 250ml",
+      "sku": "DIF-WOOD",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Difusor de Varetas",
+      "collection": "difusores",
+      "collection_title": "Difusores",
+      "option_name": null,
+      "price_min": 129.9,
+      "price_max": 129.9,
+      "available": true,
+      "seo_description": "Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe. O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que ",
+      "description_html": "<p><strong>Difusor de Varetas Aromarts — Aroma e sofisticação em cada detalhe.</strong></p>\n<p>O Difusor de Varetas Aromarts oferece uma aromatização contínua e sofisticada para o seu ambiente. Desenvolvido com fragrâncias de alta qualidade e varetas de fibra no modelo europeu, proporciona uma difusão eficiente e uniforme, ao mesmo tempo em que agrega um toque de elegância à decoração.</p>\n<p>Ideal para salas, escritórios, banheiros e lavabos, transforma qualquer espaço com uma presença olfativa marcante e acolhedora.</p>\n<p><strong>Sobre a fragrância:</strong><br/><strong>Wood</strong> é uma fragrância sofisticada e imponente, ideal para ambientes elegantes e de classe. Sua abertura cítrica de <strong>limão</strong> e <strong>lavanda</strong> oferece um frescor envolvente e acolhedor, convidando os sentidos a uma experiência única.<br/>No coração, as notas amadeiradas de <strong>cedro</strong>, combinadas com a suavidade do <strong>jasmim</strong> e a profundidade do <strong>patchouli</strong>, criam uma riqueza floral e terrosa que adiciona complexidade à composição.<br/>A base de <strong>musk</strong> e <strong>ambergris</strong> confere um acabamento suave, refinado e duradouro, deixando um rastro sofisticado que permanece por mais tempo.<br/>Uma fragrância robusta e elegante, ideal para quem busca um toque de refinamento em cada detalhe.</p>\n<p><strong>Modo de uso:</strong><br/>• Remova a tampa do frasco e insira as 6 varetas de fibra para iniciar a difusão.<br/>• Para intensificar a fragrância, recomenda-se virar as varetas diariamente.<br/>• Em ambientes menores, a inversão pode ser feita uma vez por semana.</p>\n<p>A durabilidade do aroma pode variar conforme a temperatura e ventilação do ambiente, garantindo uma evaporação equilibrada e prolongada.</p>\n<p><strong>Conteúdo da embalagem:</strong><br/>• 1 Frasco de Difusor com 250ml de fragrância concentrada<br/>• 6 Varetas de fibra no modelo europeu</p>\n<p>Duração média de até <strong>90 dias</strong>, podendo se estender conforme o modo de uso.</p>\n<p><strong>Aromarts: o equilíbrio perfeito entre fragrância, bem-estar e sofisticação.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347695749/aroma-sess-o1--23--exr83s0d11.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347695749/aromas-sess-o2--16--sibnthg7fb.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347695749/01fafbd1ecb888563507e012095bcd8f-d43lag2nwh.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347695749/aroma-sess-o1--21--r7wg0eji2k.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347695749/9f9c029341c4c486a3afd3e50c2fca2b-ofw253ht31.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347695749/aroma-sess-o1--18--pfk03ojr0b.jpg",
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/347695749/262f5333539987bb099c3a31328bcd8b-cvblibkvub.jpg"
+      ],
+      "variants": [
+        {
+          "id": "347695749",
+          "sku": "DIF-WOOD",
+          "title": "Padrão",
+          "price": 129.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/difusor-wood-250ml-1.webp",
+        "/products/difusor-wood-250ml-2.webp",
+        "/products/difusor-wood-250ml-3.webp",
+        "/products/difusor-wood-250ml-4.webp",
+        "/products/difusor-wood-250ml-5.webp",
+        "/products/difusor-wood-250ml-6.webp"
+      ]
+    },
+    {
+      "id": "348122110",
+      "handle": "home-spray-aromatizador-250ml-alecrim",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-alecrim",
+      "name": "Home Spray Aromatizador 250ml - Alecrim",
+      "sku": "HOME-ALECRIM",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância:Alecrim é uma fragrância revitalizante e natural",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/><strong>Alecrim</strong> é uma fragrância revitalizante e natural, perfeita para quem aprecia a pureza e o frescor das ervas aromáticas.<br/>Sua abertura vibrante combina notas frescas e cítricas de <strong>lavanda, alecrim, laranja e limão</strong>, proporcionando uma sensação imediata de energia e bem-estar.<br/>No coração, um delicado equilíbrio entre <strong>flores brancas, litsea cubeba e petit grain</strong> adiciona uma suavidade floral refinada.<br/>Por fim, a base se revela com <strong>madeiras nobres, musk, pau-rosa e cedro</strong>, conferindo profundidade, calor e um toque sofisticado e envolvente.<br/>Uma composição harmoniosa que perfuma e transforma qualquer ambiente com elegância e frescor.</p>\n<p><strong>Como utilizar:</strong><br/>» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>» <strong>Volume:</strong> 250ml<br/>» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>» Mantenha fora do alcance de crianças e animais.<br/>» Uso externo. Não ingerir.<br/>» Evite contato prolongado com a pele.<br/>» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348122110/aroma-sess-o1--26--urjtg4ifdc.jpg"
+      ],
+      "variants": [
+        {
+          "id": "348122110",
+          "sku": "HOME-ALECRIM",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-alecrim-1.webp"
+      ]
+    },
+    {
+      "id": "348135935",
+      "handle": "home-spray-aromatizador-250ml-blue-lap",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-blue-lap",
+      "name": "Home Spray Aromatizador 250ml - Blue Lap",
+      "sku": "HOME-BLUE-LAP",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância: Blue Lap é uma fragrância fresca e elegante, pe",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Blue Lap</strong> é uma fragrância fresca e elegante, perfeita para quem busca um ambiente com personalidade e leveza. Sua abertura cítrica e vibrante, combinada ao frescor aquático, traz uma sensação energizante e limpa logo nos primeiros instantes. No coração, notas florais suaves equilibram o perfume com delicadeza, enquanto a base amadeirada e levemente muskada proporciona um toque envolvente e duradouro. Ideal para deixar qualquer espaço com um aroma moderno, sofisticado e marcante.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348135935/blue-lap-pjvnz6ny7w.png"
+      ],
+      "variants": [
+        {
+          "id": "348135935",
+          "sku": "HOME-BLUE-LAP",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-blue-lap-1.webp"
+      ]
+    },
+    {
+      "id": "348134522",
+      "handle": "home-spray-aromatizador-250ml-cereja-avela",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-cereja-avela",
+      "name": "Home Spray Aromatizador 250ml - Cereja e Avelã",
+      "sku": "HOME-CEREJA-AVELA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância: Cereja e Avelã é uma fragrância envolvente e ac",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Cereja e Avelã</strong> é uma fragrância envolvente e aconchegante, perfeita para transformar o ambiente em um verdadeiro refúgio sensorial. Sua saída adocicada de cereja traz uma sensação calorosa e delicadamente frutada, enquanto a avelã adiciona uma cremosidade marcante e irresistível. Essa combinação gourmand cria uma atmosfera doce, sofisticada e acolhedora, ideal para quem ama fragrâncias que abraçam e encantam com personalidade.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348134522/cereja-e-avel--ibrnu14lox.png"
+      ],
+      "variants": [
+        {
+          "id": "348134522",
+          "sku": "HOME-CEREJA-AVELA",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-cereja-avela-1.webp"
+      ]
+    },
+    {
+      "id": "348137121",
+      "handle": "home-spray-aromatizador-250ml-cha-branco",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-cha-branco",
+      "name": "Home Spray Aromatizador 250ml - Chá Branco",
+      "sku": "HOME-CHA-BRANCO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele transforma qualquer espaço em um refúgio de elegância e bem-estar. Sobre a fragrância: Chá Branco é uma fragrância leve, sofisticada e envol",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele transforma qualquer espaço em um refúgio de elegância e bem-estar.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Chá Branco</strong> é uma fragrância leve, sofisticada e envolvente, perfeita para quem busca frescor e serenidade. Sua abertura delicada combina notas cítricas suaves com o frescor puro do chá branco, criando uma sensação de limpeza e tranquilidade. No coração, nuances florais se entrelaçam com toques verdes, proporcionando equilíbrio e suavidade. A base levemente amadeirada e muskada confere um acabamento elegante e duradouro. Ideal para ambientes que pedem calma, frescor e um toque de requinte.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a leveza do chá branco encontra a sofisticação.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348137121/aroma-sess-o1--27--j7nufjgkmk.jpg"
+      ],
+      "variants": [
+        {
+          "id": "348137121",
+          "sku": "HOME-CHA-BRANCO",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-cha-branco-1.webp"
+      ]
+    },
+    {
+      "id": "348138092",
+      "handle": "home-spray-aromatizador-250ml-emporio",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-emporio",
+      "name": "Home Spray Aromatizador 250ml - Empório",
+      "sku": "HOME-EMPORIO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para o dia a dia ou momentos especiais, ele transforma qualquer espaço em um ambiente acolhedor, elegante e memorável. Sobre a fragrância: Empório é uma fragrância intensa e refinada,",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para o dia a dia ou momentos especiais, ele transforma qualquer espaço em um ambiente acolhedor, elegante e memorável.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Empório</strong> é uma fragrância intensa e refinada, ideal para quem busca sofisticação e personalidade em cada detalhe. Sua abertura apresenta uma combinação envolvente de notas amadeiradas e especiadas, revelando elegância desde o primeiro instante. No coração, o calor do âmbar se une à profundidade do vetiver e à riqueza das resinas orientais, criando uma sensação marcante e sofisticada. A base de couro e patchouli completa essa composição com um toque de mistério e presença. Uma fragrância elegante, com um perfil masculino, envolvente e atemporal.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p><strong>Home Spray Aromarts Empório</strong> — elegância, intensidade e presença em cada borrifada.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348138092/aroma-sess-o1--26--htacog7akv.jpg"
+      ],
+      "variants": [
+        {
+          "id": "348138092",
+          "sku": "HOME-EMPORIO",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-emporio-1.webp"
+      ]
+    },
+    {
+      "id": "348137563",
+      "handle": "home-spray-aromatizador-250ml-garden",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-garden",
+      "name": "Home Spray Aromatizador 250ml - Garden",
+      "sku": "HOME-GARDEN",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele transforma qualquer espaço em um refúgio de elegância e bem-estar. Sobre a fragrância: Garden é uma fragrância fresca e encantadora, perfeit",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele transforma qualquer espaço em um refúgio de elegância e bem-estar.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Garden</strong> é uma fragrância fresca e encantadora, perfeita para quem deseja trazer a leveza e a beleza de um jardim florido para dentro de casa. Sua abertura combina notas verdes e levemente cítricas, que remetem à brisa suave de um fim de tarde. No coração, um buquê floral de rosas, peônias e lírios exala delicadeza, romantismo e frescor. A base de musk e madeiras claras adiciona suavidade e um toque acolhedor, completando essa experiência sensorial com harmonia. Ideal para quem ama ambientes leves, perfumados e cheios de vida.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Leve a natureza para dentro da sua casa com o <strong>Home Spray Aromarts Garden</strong> — frescor e delicadeza em cada borrifada.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348137563/aroma-sess-o1--25--cwmxejxclo.jpg"
+      ],
+      "variants": [
+        {
+          "id": "348137563",
+          "sku": "HOME-GARDEN",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-garden-1.webp"
+      ]
+    },
+    {
+      "id": "348123186",
+      "handle": "home-spray-aromatizador-250ml-lavanda",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-lavanda",
+      "name": "Home Spray Aromatizador 250ml - Lavanda",
+      "sku": "HOME-LAVANDA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Aromatização|Spray de Ambiente|Difusor"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância:Lavanda é uma fragrância clássica e atemporal, p",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/><strong>Lavanda</strong> é uma fragrância clássica e atemporal, perfeita para quem busca tranquilidade e equilíbrio. Sua saída fresca e levemente floral remete ao campo de lavandas em plena florada, proporcionando uma sensação imediata de relaxamento. No coração, o toque suave da lavanda se destaca com elegância, criando um ambiente acolhedor e sereno. A base levemente amadeirada complementa a composição com um fundo limpo, confortável e duradouro. Uma fragrância calmante, ideal para momentos de descanso, meditação ou para deixar o dia a dia mais leve.</p>\n<p><strong>Como utilizar:</strong><br/>» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>» <strong>Volume:</strong> 250ml<br/>» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>» Mantenha fora do alcance de crianças e animais.<br/>» Uso externo. Não ingerir.<br/>» Evite contato prolongado com a pele.<br/>» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348123186/lavanda-vbaltu1j2n.png"
+      ],
+      "variants": [
+        {
+          "id": "348123186",
+          "sku": "HOME-LAVANDA",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-lavanda-1.webp"
+      ]
+    },
+    {
+      "id": "348125239",
+      "handle": "home-spray-aromatizador-250ml-lavanda-francesa",
+      "url": "https://www.aromartrios.com.br/-home-spray-aromatizador-250ml-lavanda-francesa",
+      "name": "Home Spray Aromatizador 250ml - Lavanda Francesa",
+      "sku": "HOME-LAVANDA-FRAN",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância: Lavanda Francesa é uma fragrância clássica, cal",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Lavanda Francesa</strong> é uma fragrância clássica, calmante e refinada, inspirada nos campos floridos do sul da França.<br/>\r\nSua abertura traz o frescor aromático da <strong>lavanda pura</strong>, combinada com toques sutis de <strong>bergamota</strong> e <strong>eucalipto</strong>, promovendo uma sensação imediata de relaxamento e leveza.<br/>\r\nNo coração, notas de <strong>rosa branca</strong> e <strong>camomila</strong> enriquecem a composição com suavidade floral. Para finalizar, a base de <strong>musk</strong>, <strong>cedro</strong> e <strong>âmbar claro</strong> envolve o ambiente com um aroma limpo, acolhedor e duradouro. Uma fragrância perfeita para quem busca serenidade e elegância no dia a dia.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348125239/aroma-sess-o1--26--cbptxmwemt.jpg"
+      ],
+      "variants": [
+        {
+          "id": "348125239",
+          "sku": "HOME-LAVANDA-FRAN",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-lavanda-francesa-1.webp"
+      ]
+    },
+    {
+      "id": "348129855",
+      "handle": "home-spray-aromatizador-250ml-noir-candle",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-noir-candle",
+      "name": "Home Spray Aromatizador 250ml - Noir Candle",
+      "sku": "HOME-NOIR-CANDLE",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância: Noir Candle é uma fragrância intensa, envolvent",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Noir Candle</strong> é uma fragrância intensa, envolvente e misteriosa, perfeita para transformar qualquer ambiente em um refúgio de sofisticação. Sua abertura traz notas quentes e levemente adocicadas, criando uma sensação de aconchego à primeira borrifada. No coração, nuances amadeiradas e florais se fundem com elegância, proporcionando equilíbrio entre força e suavidade. A base, marcada por toques de âmbar, baunilha e musk, encerra com um rastro marcante, refinado e acolhedor. Uma fragrância perfeita para noites especiais ou momentos de puro relaxamento.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348129855/noir-candle-7zqf4ewzeh.png"
+      ],
+      "variants": [
+        {
+          "id": "348129855",
+          "sku": "HOME-NOIR-CANDLE",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-noir-candle-1.webp"
+      ]
+    },
+    {
+      "id": "348128236",
+      "handle": "home-spray-aromatizador-250ml-orquidea-negra",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-orquidea-negra",
+      "name": "Home Spray Aromatizador 250ml - Orquídea Negra",
+      "sku": "HOME-ORQ-NEGRA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância: Orquídea Negra é uma fragrância intensa, mister",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Orquídea Negra</strong> é uma fragrância intensa, misteriosa e sofisticada, perfeita para quem busca um aroma marcante e envolvente.<br/>\r\nA abertura combina notas frutadas e frescas de <strong>bergamota e groselha preta</strong>, despertando os sentidos com elegância. No coração, a <strong>orquídea negra</strong> revela toda sua sensualidade floral, enriquecida com toques de <strong>ylang-ylang</strong> e <strong>lótus</strong>, criando uma aura exótica e refinada. Por fim, a base de <strong>âmbar, patchouli e baunilha</strong> proporciona um acabamento quente e duradouro, deixando um rastro de sofisticação e presença. Uma fragrância perfeita para transformar qualquer ambiente com charme e intensidade.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348128236/aroma-sess-o1--27--lt7exmmn6p.jpg"
+      ],
+      "variants": [
+        {
+          "id": "348128236",
+          "sku": "HOME-ORQ-NEGRA",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-orquidea-negra-1.webp"
+      ]
+    },
+    {
+      "id": "348126523",
+      "handle": "home-spray-aromatizador-250ml-palo-santo",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-palo-santo",
+      "name": "Home Spray Aromatizador 250ml - Palo Santo",
+      "sku": "HOME-PALO-SANTO",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância: Palo Santo é uma fragrância mística e reconfort",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Palo Santo</strong> é uma fragrância mística e reconfortante, ideal para quem busca equilíbrio, espiritualidade e bem-estar. Sua abertura revela notas suaves e amadeiradas que remetem à madeira aromática tradicionalmente usada em rituais de purificação. No coração, o aroma quente e resinoso do <strong>Palo Santo</strong> se mistura com toques herbais e levemente cítricos, promovendo uma sensação de limpeza energética e serenidade. A base de <strong>âmbar, cedro e musk</strong> intensifica a profundidade e prolonga a experiência olfativa com um rastro acolhedor e refinado. Uma fragrância que transforma o ambiente, trazendo paz, conexão e sofisticação.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348126523/aroma-sess-o1--27--2avtxke0pp.jpg"
+      ],
+      "variants": [
+        {
+          "id": "348126523",
+          "sku": "HOME-PALO-SANTO",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-palo-santo-1.webp"
+      ]
+    },
+    {
+      "id": "348129308",
+      "handle": "home-spray-aromatizador-250ml-paris",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-paris",
+      "name": "Home Spray Aromatizador 250ml - Paris",
+      "sku": "HOME-PARIS",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância: Paris é uma fragrância romântica e encantadora,",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Paris</strong> é uma fragrância romântica e encantadora, inspirada na elegância e charme da capital francesa. Sua saída é marcada por notas florais delicadas e levemente adocicadas, que evocam a sensação de caminhar por jardins parisienses em plena primavera. No coração, o toque refinado de rosas, peônias e flores brancas revela um buquê envolvente e feminino. A base de âmbar e musk acrescenta calor, sofisticação e durabilidade, deixando um rastro suave, acolhedor e inesquecível. Uma fragrância que transforma o ambiente em um cenário de puro encanto e beleza.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348129308/aroma-sess-o1--26--086xcwy245.jpg"
+      ],
+      "variants": [
+        {
+          "id": "348129308",
+          "sku": "HOME-PARIS",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-paris-1.webp"
+      ]
+    },
+    {
+      "id": "348131624",
+      "handle": "home-spray-aromatizador-250ml-petra",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-petra",
+      "name": "Home Spray Aromatizador 250ml - Petra",
+      "sku": "HOME-PETRA",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância: Petra é uma fragrância marcante e sofisticada, ",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Petra</strong> é uma fragrância marcante e sofisticada, que combina força e elegância em uma composição envolvente. Sua abertura traz notas especiadas e levemente doces, criando uma sensação de presença e mistério. No coração, acordes amadeirados e florais se misturam harmoniosamente, conferindo profundidade e personalidade ao aroma. A base quente, com toques de âmbar e musk, deixa um rastro imponente e refinado, perfeito para quem deseja transformar o ambiente com um toque de luxo e originalidade.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348131624/petra-6tne8vqf5x.png"
+      ],
+      "variants": [
+        {
+          "id": "348131624",
+          "sku": "HOME-PETRA",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-petra-1.webp"
+      ]
+    },
+    {
+      "id": "348138546",
+      "handle": "home-spray-aromatizador-250ml-rj21",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-rj21",
+      "name": "Home Spray Aromatizador 250ml - RJ21",
+      "sku": "HOME-RJ21",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para o dia a dia ou ocasiões especiais, ele transforma qualquer espaço em um cenário acolhedor e elegante. Sobre a fragrância: RJ21 é uma fragrância urbana, fresca e cheia de atitude ",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para o dia a dia ou ocasiões especiais, ele transforma qualquer espaço em um cenário acolhedor e elegante.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>RJ21</strong> é uma fragrância urbana, fresca e cheia de atitude — perfeita para quem gosta de deixar sua marca com leveza e personalidade. Sua saída cítrica e vibrante traz um toque energizante, enquanto o corpo revela notas florais e aromáticas que equilibram frescor e sofisticação. A base amadeirada e levemente adocicada encerra com um aroma marcante, moderno e envolvente. Um convite olfativo para viver o melhor da cidade com estilo e presença.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p><strong>Home Spray Aromarts RJ21</strong> — a essência do lifestyle carioca, com frescor, atitude e autenticidade.</p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348138546/rj-9ojl5z40m9.png"
+      ],
+      "variants": [
+        {
+          "id": "348138546",
+          "sku": "HOME-RJ21",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-rj21-1.webp"
+      ]
+    },
+    {
+      "id": "348133736",
+      "handle": "home-spray-aromatizador-250ml-vibe",
+      "url": "https://www.aromartrios.com.br/home-spray-aromatizador-250ml-vibe",
+      "name": "Home Spray Aromatizador 250ml - Vibe",
+      "sku": "HOME-VIBE",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância: Vibe é uma fragrância vibrante e cheia de energ",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Vibe</strong> é uma fragrância vibrante e cheia de energia, ideal para quem vive intensamente cada momento. A saída combina o frescor do limão com o toque suculento da maçã verde, criando uma abertura leve e revigorante. No coração, o bambu e o jasmim trazem uma sensação verde e floral, equilibrando frescor e delicadeza. A base de musk e cedro encerra com elegância, oferecendo um acabamento limpo, moderno e marcante. Perfeita para acompanhar sua rotina com leveza e atitude.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348133736/vibe-o15uwan8oa.png"
+      ],
+      "variants": [
+        {
+          "id": "348133736",
+          "sku": "HOME-VIBE",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/home-spray-aromatizador-250ml-vibe-1.webp"
+      ]
+    },
+    {
+      "id": "348128725",
+      "handle": "spray-aromatizador-250ml-wood",
+      "url": "https://www.aromartrios.com.br/spray-aromatizador-250ml-wood",
+      "name": "Home Spray Aromatizador 250ml - Wood",
+      "sku": "HOME-WOOD",
+      "vendor": "Aromart Rios",
+      "category_path": [
+        "Home Spray"
+      ],
+      "product_type": "Home Spray",
+      "collection": "home-spray",
+      "collection_title": "Home Spray",
+      "option_name": null,
+      "price_min": 79.9,
+      "price_max": 79.9,
+      "available": true,
+      "seo_description": "Home Spray Aromatizador de Ambientes — Aromarts Perfume seu ambiente de forma instantânea e sofisticada com o Home Spray Aromarts. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa. Sobre a fragrância: Wood é uma fragrância sofisticada e imponente, ",
+      "description_html": "<p><strong>Home Spray Aromatizador de Ambientes — Aromarts</strong></p>\n<p>Perfume seu ambiente de forma instantânea e sofisticada com o <strong>Home Spray Aromarts</strong>. Ideal para uso diário ou ocasiões especiais, ele cria uma atmosfera acolhedora e elegante em qualquer espaço da sua casa.</p>\n<p><strong>Sobre a fragrância:</strong><br/>\n<strong>Wood</strong> é uma fragrância sofisticada e imponente, ideal para ambientes elegantes e de classe. Sua abertura cítrica de limão e lavanda oferece um frescor envolvente e acolhedor, convidando os sentidos a uma experiência única. No coração, as notas amadeiradas de cedro, combinadas com a suavidade do jasmim e a profundidade do patchouli, criam uma riqueza floral e terrosa que adiciona complexidade à composição. A base de musk e ambergris confere um acabamento suave, refinado e duradouro, deixando um rastro sofisticado que permanece por mais tempo. Uma fragrância robusta e elegante, ideal para quem busca um toque de refinamento em cada detalhe.</p>\n<p><strong>Como utilizar:</strong><br/>\r\n» Gire a trava da válvula borrifadora para o modo “OPEN”.<br/>\r\n» Pressione o gatilho até atingir a intensidade desejada, ajustando conforme o tamanho do ambiente e sua preferência pessoal.<br/>\r\n» Borrife no ar, mantendo distância de tecidos e móveis.</p>\n<p><strong>Dicas para uma experiência perfeita:</strong><br/>\r\n» <strong>Aroma marcante:</strong> Aplique generosamente em espaços amplos.<br/>\r\n» <strong>Fragrância suave:</strong> Duas borrifadas são ideais para ambientes menores.<br/>\r\n» <strong>Visitas inesperadas:</strong> Refresque sua sala de estar em segundos.<br/>\r\n» <strong>Toque especial em presentes:</strong> Uma borrifada no cartão ou embalagem eleva a experiência.</p>\n<p><strong>Detalhes do produto:</strong><br/>\r\n» <strong>Composição:</strong> Fragrância, antioxidante, protetor de cor, conservante, solvente e veículo.<br/>\r\n» <strong>Volume:</strong> 250ml<br/>\r\n» <strong>Embalagem:</strong> Frasco plástico transparente com design moderno, rótulo vibrante e válvula borrifadora preta com trava de segurança.</p>\n<p><strong>Cuidados importantes:</strong><br/>\r\n» Mantenha fora do alcance de crianças e animais.<br/>\r\n» Uso externo. Não ingerir.<br/>\r\n» Evite contato prolongado com a pele.<br/>\r\n» Produto inflamável — mantenha longe de fogo e superfícies aquecidas.<br/>\r\n» Conservar em local fresco, ao abrigo da luz direta.</p>\n<p>Transforme sua casa em um refúgio perfumado com o <strong>Home Spray Aromarts — onde a praticidade encontra a elegância.</strong></p>",
+      "images": [
+        "https://cdn.awsli.com.br/2500x2500/559/559239/produto/348128725/aroma-sess-o1--27--ki740iqfyx.jpg"
+      ],
+      "variants": [
+        {
+          "id": "348128725",
+          "sku": "HOME-WOOD",
+          "title": "Padrão",
+          "price": 79.9,
+          "compare_at_price": null,
+          "available": true,
+          "image": null
+        }
+      ],
+      "local_images": [
+        "/products/spray-aromatizador-250ml-wood-1.webp"
+      ]
+    }
+  ]
+}

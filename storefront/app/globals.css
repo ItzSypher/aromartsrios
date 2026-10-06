@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+/*
+ * Aromart Rios design tokens
+ * Paleta derivada da marca atual: oliva-grafite (#3f3d38) + sálvia (#dcdcb4).
+ * Forma: botões/inputs em pílula, mídia e painéis com raio 6px. Nada além disso.
+ * Camadas (z-index): header 30, drawer 40, toast 50.
+ */
+:root {
+  --bg: #f2f2ee;
+  --surface: #e6e7df;
+  --ink: #1c1d19;
+  --muted: #5b5c53;
+  --line: #d3d4cb;
+  --brand: #3f3d38;
+  --sage: #dcdcb4;
+  --sage-deep: #8a8c55;
+  --primary: #2b2a26;
+  --primary-ink: #f2f2ee;
+  --danger: #a3361f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141512;
+    --surface: #1e1f1b;
+    --ink: #ecece5;
+    --muted: #a5a69b;
+    --line: #30312c;
+    --brand: #d7d6cf;
+    --sage: #3c3e2b;
+    --sage-deep: #c9cb93;
+    --primary: #dcdcb4;
+    --primary-ink: #1c1d19;
+    --danger: #f08a6c;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-sage: var(--sage);
+  --color-sage-deep: var(--sage-deep);
+  --color-primary: var(--primary);
+  --color-primary-ink: var(--primary-ink);
+  --color-danger: var(--danger);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --radius-media: 6px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-feature-settings: "ss01", "cv11";
+}
+
+::selection {
+  background: var(--sage);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Conteúdo vindo do CMS / loja (descrições, páginas institucionais) */
+.prose-store {
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 65ch;
+}
+.prose-store p + p,
+.prose-store p + ul,
+.prose-store ul + p {
+  margin-top: 1em;
+}
+.prose-store strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+.prose-store ul {
+  list-style: disc;
+  padding-left: 1.25em;
+}
+.prose-store a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.prose-store img {
+  border-radius: var(--radius-media);
+  margin: 1.5em 0;
+}
+
+/* Movimento: só com prefers-reduced-motion: no-preference */
+@media (prefers-reduced-motion: no-preference) {
+  .hero-stagger > * {
+    animation: rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  .hero-stagger > :nth-child(2) {
+    animation-delay: 0.08s;
+  }
+  .hero-stagger > :nth-child(3) {
+    animation-delay: 0.16s;
+  }
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 35%;
+    }
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
