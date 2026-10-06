@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { BrandLogo } from "@/components/brand-logo";
 import { site, whatsappLink } from "@/lib/site";
 
 const groups = [
@@ -24,7 +24,7 @@ export function SiteFooter() {
     <footer className="mt-24 border-t border-line bg-surface">
       <div className="mx-auto grid max-w-[1400px] gap-12 px-4 py-16 md:grid-cols-[1.4fr_1fr_1fr_1.2fr] md:px-8">
         <div className="max-w-xs space-y-4">
-          <Image src="/brand/logo.png" alt="Aromarts" width={90} height={72} className="dark:invert" />
+          <BrandLogo className="h-16 w-auto text-ink" />
           <p className="text-sm leading-relaxed text-muted">
             Aromatização de ambientes para casas, lojas, hotéis e escritórios, com fragrâncias próprias.
           </p>

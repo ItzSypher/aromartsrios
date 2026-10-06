@@ -1,5 +1,6 @@
-import { AbsoluteFill, Img, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { WhatsappLogo } from "@phosphor-icons/react";
+import { StaticLogo } from "../logo";
 import { c, fontFamily } from "../theme";
 
 /** Fechamento: chamada para o WhatsApp comercial e endereço do site. */
@@ -15,10 +16,10 @@ export const CallToAction: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ background: c.brand, color: c.bg, fontFamily, alignItems: "center", justifyContent: "center", textAlign: "center" }}>
-      <Img src={staticFile("icon.png")} style={{ width: 170, filter: "invert(1)", opacity: logo, transform: `translateY(${(1 - logo) * 30}px)` }} />
+      <StaticLogo width={230} color={c.bg} style={{ opacity: logo, transform: `translateY(${(1 - logo) * 30}px)` }} />
       <div
         style={{
-          marginTop: 70,
+          marginTop: 60,
           fontSize: 128,
           fontWeight: 600,
           letterSpacing: "-0.045em",

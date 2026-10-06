@@ -120,64 +120,37 @@ p {
   display: grid;
   place-items: center;
   background: var(--bg);
-  animation: preloader-out 0.7s cubic-bezier(0.76, 0, 0.24, 1) 1.15s forwards;
+  color: var(--ink);
+  animation: preloader-out 0.75s cubic-bezier(0.76, 0, 0.24, 1) 1.75s forwards;
 }
 .no-preloader .preloader {
   display: none;
 }
-.preloader__mark {
-  display: grid;
-  justify-items: center;
-  gap: 14px;
-}
-.preloader__wings {
-  width: 76px;
+.preloader__logo {
+  width: clamp(240px, 64vw, 420px);
   height: auto;
-  animation: wings-in 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+  overflow: visible;
+  animation: logo-in 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
-.preloader__word {
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.32em;
-  text-transform: uppercase;
-  padding-left: 0.32em;
-  animation: word-in 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+.preloader__sombra {
+  opacity: 0.12;
 }
-.preloader__bar {
-  width: 96px;
-  height: 2px;
-  border-radius: 2px;
-  background: var(--line);
-  overflow: hidden;
-  position: relative;
+/* O líquido sobe da base ao topo enquanto a onda desliza meio ciclo */
+.preloader__nivel {
+  animation: logo-fill 1.45s cubic-bezier(0.45, 0, 0.2, 1) 0.15s both;
 }
-.preloader__bar::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--ink);
-  transform-origin: left;
-  animation: bar-fill 1s cubic-bezier(0.65, 0, 0.35, 1) 0.1s both;
-}
-@keyframes wings-in {
+@keyframes logo-in {
   from {
     opacity: 0;
-    transform: translateY(14px) scale(0.92);
-    clip-path: inset(100% 0 0 0);
+    transform: translateY(16px) scale(0.96);
+  }
+}
+@keyframes logo-fill {
+  from {
+    transform: translate(0, 1420px);
   }
   to {
-    clip-path: inset(0 0 0 0);
-  }
-}
-@keyframes word-in {
-  from {
-    opacity: 0;
-    letter-spacing: 0.6em;
-  }
-}
-@keyframes bar-fill {
-  from {
-    transform: scaleX(0);
+    transform: translate(668px, -60px);
   }
 }
 @keyframes preloader-out {

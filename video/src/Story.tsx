@@ -11,7 +11,7 @@ import { WhatsApp } from "./scenes/WhatsApp";
 const T = 15; // duração de cada transição (quadros)
 
 export const scenes = [
-  { id: "intro", frames: 80, el: <Intro /> },
+  { id: "intro", frames: 90, el: <Intro /> },
   { id: "hook", frames: 105, el: <Hook /> },
   { id: "tour", frames: 270, el: <ScrollTour /> },
   { id: "features", frames: 150, el: <Features /> },
