@@ -106,21 +106,6 @@ export function HeroIn({ children, className, delay = 0 }: { children: React.Rea
   );
 }
 
-/** Zoom lento da foto do hero: só transform, não atrasa o LCP. */
-export function HeroImageMotion({ children, className }: { children: React.ReactNode; className?: string }) {
-  const reduce = useReducedMotion();
-  return (
-    <motion.div
-      className={className}
-      initial={reduce ? false : { scale: 1.08 }}
-      animate={{ scale: 1 }}
-      transition={{ duration: 2.2, ease: EASE }}
-    >
-      {children}
-    </motion.div>
-  );
-}
-
 /** Faixa contínua (uma por página). Pausa com movimento reduzido. */
 export function Marquee({ items, className }: { items: string[]; className?: string }) {
   const reduce = useReducedMotion();

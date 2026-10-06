@@ -48,7 +48,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <head>
         <script dangerouslySetInnerHTML={{ __html: preloaderScript }} />
         <noscript>
-          <style>{`[data-reveal]{opacity:1!important;transform:none!important;filter:none!important}`}</style>
+          <style>{`[data-reveal]{opacity:1!important;transform:none!important;filter:none!important}#hero{height:auto!important}`}</style>
         </noscript>
       </head>
       <body className="flex min-h-[100dvh] flex-col">

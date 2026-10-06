@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Image, { getImageProps } from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -19,7 +19,8 @@ import {
 import { BrandMark } from "@/components/brand-logo";
 import { FragranceExplorer, type ExplorerItem } from "@/components/fragrance-explorer";
 import { LeadForm } from "@/components/lead-form";
-import { HeroIn, HeroImageMotion, Marquee, Reveal, Stagger, StaggerItem } from "@/components/motion";
+import { HeroScrollVideo } from "@/components/hero-scroll-video";
+import { HeroIn, Marquee, Reveal, Stagger, StaggerItem } from "@/components/motion";
 import { ProductCard } from "@/components/product-card";
 import { fragranceOf, getProducts } from "@/lib/catalog";
 import { fragranceKey, fragrances } from "@/lib/fragrances";
@@ -80,6 +81,13 @@ const faq = [
   },
 ];
 
+// Quadros do vídeo do hero (public/hero): foco = ponto que fica visível quando a tela corta o vídeo
+const HERO_DESKTOP = { dir: "/hero/pc", frames: 64, focusX: 0.5, focusY: 0.45 };
+const HERO_MOBILE = { dir: "/hero/tel", frames: 60, focusX: 0.5, focusY: 0.4 };
+const heroAlt = "Aparelho de aromatização Aromart Rios perfumando um ambiente corporativo enquanto pessoas passam";
+const posterDesktop = getImageProps({ src: "/hero/pc-poster.webp", alt: "", width: 1920, height: 1080, quality: 90, sizes: "100vw" }).props.srcSet;
+const posterMobile = getImageProps({ src: "/hero/tel-poster.webp", alt: "", width: 720, height: 1280, quality: 90, sizes: "100vw" }).props;
+
 function pick(products: Product[], handles: string[]) {
   return handles.map((h) => products.find((p) => p.handle === h)).filter(Boolean) as Product[];
 }
@@ -139,53 +147,55 @@ export default async function Home() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
 
-      {/* HERO: foto real do aparelho Aromart Rios em ambiente corporativo.
-          Mobile: foto em cima (aparelho inteiro à vista) e texto embaixo. Desktop: texto sobre a foto. */}
-      <section className="relative isolate overflow-hidden bg-[#141512] md:flex md:min-h-[calc(100dvh-72px)] md:items-end">
-        <HeroImageMotion className="relative -z-10 h-[54svh] min-h-[300px] max-h-[540px] md:absolute md:inset-0 md:h-auto md:max-h-none">
-          <Image
-            src="/brand/empresas-hero.webp"
-            alt="Aparelho de aromatização Aromart Rios instalado em parede de madeira de um ambiente corporativo"
-            fill
-            priority
-            quality={90}
-            sizes="100vw"
-            className="object-cover object-[50%_32%] md:object-[50%_40%]"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#141512] via-[#141512]/10 to-transparent md:bg-gradient-to-r md:from-[#141512]/85 md:via-[#141512]/35 md:to-transparent" />
-        </HeroImageMotion>
+      {/* HERO: vídeo do aparelho Aromart Rios controlado pela rolagem (vertical no celular, horizontal no PC).
+          A seção é mais alta que a tela; o palco fica preso enquanto a rolagem avança o vídeo. */}
+      <section
+        id="hero"
+        className="relative h-[240svh] bg-[#141512] data-[static]:h-auto motion-reduce:h-auto"
+      >
+        <div className="sticky top-16 isolate flex h-[calc(100svh-4rem)] min-h-[560px] items-end overflow-hidden md:top-[72px] md:h-[calc(100svh-72px)]">
+          <picture className="absolute inset-0 -z-10">
+            <source media="(min-width: 768px)" srcSet={posterDesktop} />
+            <img {...posterMobile} alt={heroAlt} fetchPriority="high" className="size-full object-cover object-[50%_40%] md:object-[50%_45%]" />
+          </picture>
+          <div className="absolute inset-0 -z-10">
+            <HeroScrollVideo sectionId="hero" desktop={HERO_DESKTOP} mobile={HERO_MOBILE} />
+          </div>
+          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#141512] via-[#141512]/45 via-40% to-transparent to-65% md:bg-gradient-to-r md:from-[#141512]/85 md:via-[#141512]/30 md:via-50% md:to-transparent md:to-100%" />
 
-        <div className="relative mx-auto -mt-14 w-full max-w-[1400px] px-4 pb-10 text-[#f2f2ee] md:mt-0 md:px-8 md:pb-20 md:pt-40">
-          <HeroIn>
-            <p className="text-sm font-medium text-[#dcdcb4]">Marketing olfativo para empresas</p>
-          </HeroIn>
-          <HeroIn delay={0.08}>
-            <h1 className="mt-4 max-w-[14ch] font-display text-[2.85rem] font-medium leading-[0.98] tracking-[-0.015em] sm:text-6xl md:text-7xl lg:text-8xl">
-              Aromatização que faz sua marca ser lembrada.
-            </h1>
-          </HeroIn>
-          <HeroIn delay={0.16}>
-            <p className="mt-5 max-w-[46ch] text-base leading-relaxed text-[#f2f2ee]/80 md:text-lg">
-              Fragrâncias exclusivas e aparelhos de aromatização para lojas, hotéis, clínicas e escritórios em todo o Brasil.
-            </p>
-          </HeroIn>
-          <HeroIn delay={0.24} className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-            <Link
-              href="#orcamento"
-              className="group inline-flex items-center justify-center gap-2 rounded-full bg-[#dcdcb4] px-7 py-4 text-sm font-semibold text-[#1c1d19] transition hover:bg-[#e8e8c6] active:scale-[0.98]"
-            >
-              <BrandMark className="h-4 w-auto" />
-              Pedir orçamento
-              <ArrowRight size={16} className="transition group-hover:translate-x-0.5" />
-            </Link>
-            <Link
-              href="#fragrancias"
-              className="group inline-flex items-center justify-center gap-2 rounded-full border border-[#f2f2ee]/35 px-7 py-4 text-sm font-medium backdrop-blur-sm transition hover:bg-[#f2f2ee]/10"
-            >
-              <BrandMark className="h-4 w-auto text-[#dcdcb4]" />
-              Conhecer fragrâncias
-            </Link>
-          </HeroIn>
+          <div className="relative mx-auto w-full max-w-[1400px] px-4 pb-6 text-[#f2f2ee] md:px-8 md:pb-20">
+            <HeroIn>
+              <p className="text-sm font-medium text-[#dcdcb4]">Marketing olfativo para empresas</p>
+            </HeroIn>
+            <HeroIn delay={0.08}>
+              <h1 className="mt-3 max-w-[14ch] font-display text-[2.6rem] font-medium leading-[0.98] tracking-[-0.015em] sm:text-6xl md:mt-4 md:text-7xl lg:text-8xl">
+                Aromatização que faz sua marca ser lembrada.
+              </h1>
+            </HeroIn>
+            <HeroIn delay={0.16}>
+              <p className="mt-4 max-w-[46ch] text-[15px] leading-relaxed text-[#f2f2ee]/80 md:mt-5 md:text-lg">
+                Fragrâncias exclusivas e aparelhos de aromatização para lojas, hotéis, clínicas e escritórios em todo o Brasil.
+              </p>
+            </HeroIn>
+            <HeroIn delay={0.24} className="mt-6 flex gap-2 sm:items-center sm:gap-3 md:mt-8">
+              <Link
+                href="#orcamento"
+                className="group inline-flex flex-1 items-center justify-center gap-2 rounded-full bg-[#dcdcb4] px-4 py-3.5 text-[13px] font-semibold sm:flex-none sm:px-7 sm:py-4 sm:text-sm text-[#1c1d19] transition hover:bg-[#e8e8c6] active:scale-[0.98]"
+              >
+                <BrandMark className="h-4 w-auto" />
+                Pedir orçamento
+                <ArrowRight size={16} className="hidden transition group-hover:translate-x-0.5 sm:block" />
+              </Link>
+              <Link
+                href="#fragrancias"
+                className="group inline-flex flex-1 items-center justify-center gap-2 rounded-full border border-[#f2f2ee]/35 px-4 py-3.5 text-[13px] font-medium sm:flex-none sm:px-7 sm:py-4 sm:text-sm backdrop-blur-sm transition hover:bg-[#f2f2ee]/10"
+              >
+                <BrandMark className="h-4 w-auto text-[#dcdcb4]" />
+                <span className="sm:hidden">Fragrâncias</span>
+                <span className="hidden sm:inline">Conhecer fragrâncias</span>
+              </Link>
+            </HeroIn>
+          </div>
         </div>
       </section>
 
