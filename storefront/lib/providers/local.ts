@@ -45,6 +45,8 @@ export const localProvider = {
     return catalog.collections;
   },
   async getPages(): Promise<Page[]> {
-    return pages;
+    // Conteúdo corporativo agora vive na home (/#solucoes); ver redirects em next.config.ts
+    const replaced = ["servicos", "marketing-olfativo-com-aromatizacao-profissional", "aromatizacao-de-ambientes-corporativos"];
+    return pages.filter((p) => !replaced.includes(p.slug));
   },
 };

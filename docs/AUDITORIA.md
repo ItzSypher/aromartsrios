@@ -16,6 +16,8 @@ Data: 06/10/2026. Método: navegação real com Chromium (desktop 1440px e celul
 
 ## Importantes
 
+- **Página "Marketing olfativo" com texto copiado de terceiros:** o conteúdo cita "Yasmin Esperanza, gerente de marketing da **Cheiro Bom**" e descreve os equipamentos dessa outra empresa como se fossem da loja. Risco jurídico e de SEO (conteúdo duplicado). No site novo a página redireciona para a seção de empresas da home, com texto próprio.
+
 - **Sem dados estruturados (JSON-LD)** de produto: Google não mostra preço/estoque nos resultados. Só há microdata antigo.
 - **H1 vazio na home** e **106 de 287 imagens sem texto alternativo** (acessibilidade e SEO de imagem).
 - **Página "Serviços" vazia** (só o título).

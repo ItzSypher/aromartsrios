@@ -1,25 +1,82 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Bank, CreditCard, Truck, Package } from "@phosphor-icons/react/dist/ssr";
-import { HeroMotion } from "@/components/hero-motion";
+import {
+  ArrowRight,
+  Barbell,
+  Bed,
+  Car,
+  ChatsCircle,
+  Confetti,
+  Drop,
+  House,
+  Storefront,
+  Stethoscope,
+  Briefcase,
+  Wind,
+  Sparkle,
+} from "@phosphor-icons/react/dist/ssr";
+import { FragranceExplorer, type ExplorerItem } from "@/components/fragrance-explorer";
+import { LeadForm } from "@/components/lead-form";
+import { HeroIn, HeroImageMotion, Marquee, Reveal, Stagger, StaggerItem } from "@/components/motion";
 import { ProductCard } from "@/components/product-card";
-import { Reveal } from "@/components/reveal";
-import { fragranceOf, getCollections, getProducts } from "@/lib/catalog";
-import { brl, whatsappLink } from "@/lib/site";
+import { fragranceOf, getProducts } from "@/lib/catalog";
+import { fragranceKey, fragrances } from "@/lib/fragrances";
+import { brl, site, whatsappLink } from "@/lib/site";
 import type { Product } from "@/lib/types";
 
-const benefits = [
-  { icon: Truck, title: "Frete grátis", text: "a partir de R$ 480 no Sudeste" },
-  { icon: CreditCard, title: "Até 3x sem juros", text: "no cartão" },
-  { icon: Bank, title: "Pix e boleto", text: "pagamento à vista" },
-  { icon: Package, title: "Entregamos", text: "em todo o Brasil" },
+export const metadata: Metadata = {
+  title: { absolute: "Aromatização de ambientes para empresas | Aromart Rios" },
+  description: site.description,
+  alternates: { canonical: "/" },
+  keywords: [
+    "aromatização de ambientes",
+    "marketing olfativo",
+    "aromatização para empresas",
+    "aromatizador de ambiente profissional",
+    "difusor de varetas",
+    "home spray",
+  ],
+};
+
+const segments = [
+  { icon: Storefront, label: "Varejo e lojas" },
+  { icon: Bed, label: "Hotéis e pousadas" },
+  { icon: Stethoscope, label: "Clínicas e consultórios" },
+  { icon: Barbell, label: "Academias e spas" },
+  { icon: Car, label: "Concessionárias" },
+  { icon: Confetti, label: "Eventos e feiras" },
+  { icon: Briefcase, label: "Escritórios e showrooms" },
+  { icon: House, label: "Residências" },
 ];
 
-// Ordem e textos dos formatos na home (slugs = URLs atuais da loja)
-const formats: { handle: string; title: string; text: string }[] = [
-  { handle: "difusores", title: "Difusores de varetas", text: "Perfume contínuo, sem chama e sem tomada." },
-  { handle: "home-spray", title: "Home spray", text: "Borrifou, perfumou. 250 ml para ambientes e tecidos." },
-  { handle: "aromas", title: "Aromatizantes", text: "Em 500 ml, 1 e 5 litros, para quem usa todo dia." },
+const steps = [
+  { icon: ChatsCircle, title: "Conversa", text: "Você conta sobre o espaço, o público e a sensação que quer passar." },
+  { icon: Drop, title: "Proposta", text: "Indicamos as fragrâncias e o formato certo: aparelho, difusor ou spray." },
+  { icon: Wind, title: "Aromatização", text: "Entregamos e acompanhamos a reposição para o cheiro não faltar." },
+];
+
+const faq = [
+  {
+    q: "Vocês atendem empresas fora do Rio de Janeiro?",
+    a: "Sim. A Aromart Rios entrega em todo o Brasil. Peça um orçamento informando a sua cidade.",
+  },
+  {
+    q: "Posso ter uma fragrância exclusiva da minha marca?",
+    a: "Sim. Desenvolvemos fragrâncias exclusivas para empresas que querem usar o marketing olfativo como parte da identidade da marca.",
+  },
+  {
+    q: "Que tipos de ambiente vocês aromatizam?",
+    a: "Varejo, hotéis, consultórios, academias e spas, concessionárias, eventos e feiras, showrooms, escritórios e residências.",
+  },
+  {
+    q: "Também posso comprar para casa?",
+    a: "Pode. Difusores de varetas, home sprays e aromatizantes estão na loja online, com Pix, boleto ou cartão.",
+  },
+  {
+    q: "Como funciona o frete?",
+    a: "O frete é grátis a partir de R$ 480 no Sudeste e de R$ 590 a R$ 790 nas demais regiões. Abaixo disso, o valor é calculado na finalização.",
+  },
 ];
 
 function pick(products: Product[], handles: string[]) {
@@ -27,210 +84,312 @@ function pick(products: Product[], handles: string[]) {
 }
 
 export default async function Home() {
-  const [products, collections] = await Promise.all([getProducts(), getCollections()]);
-  const available = products.filter((p) => p.available);
+  const products = (await getProducts()).filter((p) => p.available);
 
-  const heroProduct = products.find((p) => p.handle === "difusor-palo-santo") ?? available[0];
-  const heroImage = heroProduct?.images[1] ?? heroProduct?.images[0];
-
-  const bestSellers = [
-    ...pick(available, ["difusor-emporio", "difusor-palo-santo", "aromatizante-summer", "difusor-bamboo-250ml"]),
-    ...available.filter((p) => p.variants.some((v) => v.compareAtPrice)),
-    ...available,
-  ]
-    .filter((p, i, arr) => arr.findIndex((x) => x.handle === p.handle) === i)
-    .slice(0, 10);
-
-  const tiles = formats
+  // Fragrâncias com fotos e formatos reais do catálogo
+  const order = ["difusores", "home-spray", "aromas"];
+  const explorer: ExplorerItem[] = fragrances
     .map((f) => {
-      const c = collections.find((c) => c.handle === f.handle);
-      const cover = products.find((p) => p.collection === f.handle && p.images.length)?.images[0];
-      return c ? { ...f, count: c.count, cover } : null;
+      const matches = products
+        .filter((p) => fragranceKey(fragranceOf(p.name)) === f.key)
+        .sort((a, b) => order.indexOf(a.collection) - order.indexOf(b.collection));
+      const formats = matches.map((p) => ({
+        label:
+          p.collection === "difusores"
+            ? "Difusor de varetas 250 ml"
+            : p.collection === "home-spray"
+              ? "Home spray 250 ml"
+              : "Aromatizante 500 ml a 5 L",
+        href: `/${p.handle}`,
+        price: p.priceMin,
+        ranged: p.priceMax > p.priceMin,
+      }));
+      return { ...f, image: matches[0]?.images[0] ?? null, formats };
     })
-    .filter(Boolean) as (typeof formats[number] & { count: number; cover?: string })[];
+    .filter((f) => f.formats.length > 0);
 
-  // Índice de fragrâncias: cada aroma e em quais formatos ele existe
-  const scents = new Map<string, { name: string; items: { label: string; href: string }[] }>();
-  for (const p of available) {
-    const name = fragranceOf(p.name);
-    if (!name || name.length > 24 || /kit|frasco/i.test(p.productType)) continue;
-    const key = name.toLowerCase().replace(/\s(com|e)\s/g, " ");
-    const entry = scents.get(key) ?? { name, items: [] };
-    if (!entry.items.some((i) => i.label === p.productType)) entry.items.push({ label: p.productType, href: `/${p.handle}` });
-    scents.set(key, entry);
-  }
-  const scentList = [...scents.values()].sort((a, b) => b.items.length - a.items.length || a.name.localeCompare(b.name)).slice(0, 18);
+  const featured = products.find((p) => p.handle === "difusor-palo-santo") ?? products[0];
+  const highlights = pick(products, [
+    "difusor-emporio",
+    "aromatizante-wood",
+    "home-spray-aromatizador-250ml-noir-candle",
+    "difusor-bamboo-250ml",
+  ]);
+  const benefitImage = products.find((p) => p.handle === "difusor-emporio")?.images[1];
+  const exclusiveImage = products.find((p) => p.handle === "difusor-emporio")?.images[2];
 
-  const corporateImage = products.find((p) => p.handle === "difusor-emporio")?.images[2] ?? heroImage;
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      serviceType: "Aromatização de ambientes e marketing olfativo",
+      provider: { "@type": "Organization", name: site.name, url: site.url },
+      areaServed: { "@type": "Country", name: "Brasil" },
+      audience: { "@type": "BusinessAudience", audienceType: segments.map((s) => s.label).join(", ") },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+    },
+  ];
 
   return (
     <>
-      {/* Hero: split assimétrico, produto real à direita */}
-      <section className="mx-auto grid max-w-[1400px] items-center gap-10 px-4 pb-16 pt-8 md:grid-cols-[1fr_1.1fr] md:px-8 md:pt-14 lg:min-h-[calc(100dvh-72px)] lg:pb-14">
-        <HeroMotion>
-          <h1 className="max-w-[14ch] text-[2.6rem] font-semibold leading-[1.02] tracking-[-0.035em] md:text-6xl lg:text-7xl">
-            Um perfume para cada ambiente.
-          </h1>
-          <p className="mt-6 max-w-[42ch] text-lg leading-relaxed text-muted">
-            Difusores, home sprays e aromatizantes com fragrâncias próprias, para casa e para empresas.
-          </p>
-          <div className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-4">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
+
+      {/* HERO: foto real do aparelho Aromarts em ambiente corporativo */}
+      <section className="relative isolate flex min-h-[calc(100dvh-64px)] items-end overflow-hidden md:min-h-[calc(100dvh-72px)]">
+        <HeroImageMotion className="absolute inset-0 -z-10">
+          <Image
+            src="/brand/empresas-hero.webp"
+            alt="Aparelho de aromatização Aromarts instalado em parede de madeira de um ambiente corporativo"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover object-[58%_40%] md:object-center"
+          />
+        </HeroImageMotion>
+        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#141512]/90 via-[#141512]/45 to-[#141512]/5 md:bg-gradient-to-r md:from-[#141512]/85 md:via-[#141512]/35 md:to-transparent" />
+
+        <div className="mx-auto w-full max-w-[1400px] px-4 pb-10 pt-40 text-[#f2f2ee] md:px-8 md:pb-20">
+          <HeroIn>
+            <p className="text-sm font-medium text-[#dcdcb4]">Marketing olfativo para empresas</p>
+          </HeroIn>
+          <HeroIn delay={0.08}>
+            <h1 className="mt-4 max-w-[15ch] text-[2.5rem] font-semibold leading-[1.02] tracking-[-0.035em] sm:text-5xl md:text-6xl lg:text-7xl">
+              Aromatização que faz sua marca ser lembrada.
+            </h1>
+          </HeroIn>
+          <HeroIn delay={0.16}>
+            <p className="mt-5 max-w-[46ch] text-base leading-relaxed text-[#f2f2ee]/80 md:text-lg">
+              Fragrâncias exclusivas e aparelhos de aromatização para lojas, hotéis, clínicas e escritórios em todo o Brasil.
+            </p>
+          </HeroIn>
+          <HeroIn delay={0.24} className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <Link
-              href="/aromas"
-              className="group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-ink transition hover:opacity-90 active:scale-[0.98]"
+              href="#orcamento"
+              className="group inline-flex items-center justify-center gap-2 rounded-full bg-[#dcdcb4] px-7 py-4 text-sm font-semibold text-[#1c1d19] transition hover:bg-[#e8e8c6] active:scale-[0.98]"
             >
-              Ver fragrâncias
+              Pedir orçamento
               <ArrowRight size={16} className="transition group-hover:translate-x-0.5" />
             </Link>
-            <Link href="/pagina/aromatizacao-de-ambientes-corporativos" className="text-sm font-medium underline-offset-4 hover:underline">
-              Aromatização para empresas
-            </Link>
-          </div>
-        </HeroMotion>
-
-        {heroImage && (
-          <figure>
             <Link
-              href={`/${heroProduct.handle}`}
-              className="relative block aspect-[4/5] overflow-hidden rounded-[var(--radius-media)] bg-sage md:aspect-[6/6] lg:aspect-[5/5]"
+              href="#fragrancias"
+              className="inline-flex items-center justify-center rounded-full border border-[#f2f2ee]/35 px-7 py-4 text-sm font-medium backdrop-blur-sm transition hover:bg-[#f2f2ee]/10"
             >
-              <Image
-                src={heroImage}
-                alt={heroProduct.name}
-                fill
-                priority
-                sizes="(min-width: 768px) 55vw, 100vw"
-                className="object-cover"
-              />
+              Conhecer fragrâncias
             </Link>
-            <figcaption className="mt-3 flex justify-between text-sm text-muted">
-              <span>{heroProduct.name}</span>
-              <span className="tabular-nums">{brl(heroProduct.priceMin)}</span>
-            </figcaption>
-          </figure>
-        )}
-      </section>
-
-      {/* Benefícios: faixa simples, sem cards */}
-      <section aria-label="Vantagens" className="border-y border-line">
-        <ul className="mx-auto grid max-w-[1400px] grid-cols-2 gap-y-6 px-4 py-7 md:grid-cols-4 md:px-8">
-          {benefits.map(({ icon: Icon, title, text }) => (
-            <li key={title} className="flex items-center gap-3">
-              <Icon size={26} weight="light" className="shrink-0 text-sage-deep" />
-              <span className="text-sm leading-tight">
-                <span className="block font-medium">{title}</span>
-                <span className="text-muted">{text}</span>
-              </span>
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      {/* Formatos: bento 2 + 3 */}
-      <section className="mx-auto max-w-[1400px] px-4 pt-24 md:px-8">
-        <Reveal>
-          <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">Escolha pelo formato</h2>
-        </Reveal>
-        <div className="mt-10 grid gap-4 md:grid-cols-[1.25fr_1fr] md:grid-rows-2">
-          {tiles.map((t, i) => (
-            <Reveal key={t.handle} delay={i * 0.05} className={i === 0 ? "md:row-span-2" : ""}>
-              <Link
-                href={`/${t.handle}`}
-                className={`group relative flex h-full overflow-hidden rounded-[var(--radius-media)] bg-surface ${i === 0 ? "aspect-[4/5] md:aspect-auto md:min-h-[640px]" : "aspect-[16/10] md:aspect-auto md:min-h-[312px]"}`}
-              >
-                {t.cover && (
-                  <Image
-                    src={t.cover}
-                    alt=""
-                    fill
-                    sizes={i === 0 ? "(min-width: 768px) 55vw, 100vw" : "(min-width: 768px) 45vw, 100vw"}
-                    className="object-cover transition duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
-                  />
-                )}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#1c1d19]/70 via-[#1c1d19]/10 to-transparent" />
-                <div className="relative mt-auto flex w-full items-end justify-between gap-4 p-5 text-[#f2f2ee] md:p-6">
-                  <div>
-                    <h3 className={`font-semibold tracking-tight ${i === 0 ? "text-2xl md:text-4xl" : "text-2xl"}`}>{t.title}</h3>
-                    <p className="mt-1 max-w-[34ch] text-sm text-[#f2f2ee]/80">{t.text}</p>
-                  </div>
-                  <span className="shrink-0 text-sm tabular-nums text-[#f2f2ee]/80">{t.count}</span>
-                </div>
-              </Link>
-            </Reveal>
-          ))}
+          </HeroIn>
         </div>
       </section>
 
-      {/* Mais vendidos: trilho horizontal com scroll-snap */}
-      <section className="pt-24">
-        <div className="mx-auto flex max-w-[1400px] items-end justify-between px-4 md:px-8">
-          <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">Os mais pedidos</h2>
-          <Link href="/difusores" className="hidden text-sm font-medium underline-offset-4 hover:underline sm:block">
-            Ver todos os difusores
-          </Link>
-        </div>
-        <ul className="scrollbar-none mt-10 flex snap-x snap-mandatory scroll-px-4 gap-4 overflow-x-auto px-4 pb-2 md:scroll-px-8 md:gap-6 md:px-8 xl:px-[max(2rem,calc((100vw_-_1400px)/2_+_2rem))] xl:scroll-px-[max(2rem,calc((100vw_-_1400px)/2_+_2rem))]">
-          {bestSellers.map((p) => (
-            <li key={p.handle} className="w-[64vw] shrink-0 snap-start sm:w-[38vw] md:w-[28vw] lg:w-[22vw] xl:w-[300px]">
-              <ProductCard product={p} />
-            </li>
-          ))}
-        </ul>
+      {/* Segmentos atendidos: única faixa contínua da página */}
+      <section
+        aria-label="Segmentos atendidos"
+        className="border-b border-line bg-sage py-5 text-lg font-medium tracking-tight text-ink md:py-6 md:text-2xl"
+      >
+        <Marquee items={segments.map((s) => s.label)} />
       </section>
 
-      {/* Índice de fragrâncias: tipográfico, dados reais do catálogo */}
-      <section className="mx-auto max-w-[1400px] px-4 pt-28 md:px-8">
-        <Reveal>
-          <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">Encontre pelo aroma</h2>
-          <p className="mt-3 max-w-[52ch] text-muted">
-            A mesma fragrância em vários formatos. Escolha o cheiro e depois o jeito de usar.
+      {/* Por que aromatizar: bento */}
+      <section id="solucoes" className="mx-auto max-w-[1400px] scroll-mt-24 px-4 pt-20 md:px-8 md:pt-28">
+        <Reveal as="header" className="max-w-2xl">
+          <h2 className="text-3xl font-semibold tracking-tight md:text-5xl">O cheiro também vende.</h2>
+          <p className="mt-4 text-muted md:text-lg">
+            O olfato está ligado à memória e às emoções. Um ambiente perfumado faz o cliente ficar mais e lembrar de você.
           </p>
         </Reveal>
-        <ul className="mt-12 grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
-          {scentList.map((s) => (
-            <li key={s.name} className="flex items-baseline justify-between gap-4 border-t border-line py-4">
-              <Link href={s.items[0].href} className="text-xl font-medium tracking-tight hover:underline hover:underline-offset-4">
-                {s.name}
-              </Link>
-              <span className="flex flex-wrap justify-end gap-x-3 gap-y-1 text-xs text-muted">
-                {s.items.map((it) => (
-                  <Link key={it.href} href={it.href} className="hover:text-ink">
-                    {it.label}
-                  </Link>
-                ))}
-              </span>
-            </li>
-          ))}
-        </ul>
+
+        <Stagger className="mt-10 grid grid-cols-2 gap-3 md:mt-14 md:grid-cols-6 md:gap-4">
+          <StaggerItem className="relative col-span-2 min-h-[420px] overflow-hidden rounded-[var(--radius-media)] bg-surface md:col-span-4 md:row-span-2 md:min-h-[560px]">
+            {benefitImage && (
+              <Image src={benefitImage} alt="Difusor de varetas Aromarts" fill sizes="(min-width: 768px) 66vw, 100vw" className="object-cover" />
+            )}
+            <div className="absolute inset-0 bg-gradient-to-t from-[#141512]/80 via-[#141512]/10 to-transparent" />
+            <div className="absolute inset-x-0 bottom-0 p-6 text-[#f2f2ee] md:p-10">
+              <Sparkle size={28} weight="light" className="text-[#dcdcb4]" />
+              <h3 className="mt-3 text-2xl font-semibold tracking-tight md:text-4xl">Memória de marca</h3>
+              <p className="mt-2 max-w-[42ch] text-[#f2f2ee]/80">
+                Quando o cliente sente o aroma de novo, revive a experiência. É a sua marca ficando na lembrança.
+              </p>
+            </div>
+          </StaggerItem>
+
+          <StaggerItem className="col-span-1 flex flex-col justify-between rounded-[var(--radius-media)] bg-sage p-5 md:col-span-2 md:p-7">
+            <span className="text-4xl font-semibold tracking-tight tabular-nums md:text-6xl">+15,9%</span>
+            <span className="mt-6 text-sm leading-snug md:text-base">de tempo de permanência no ponto de venda*</span>
+          </StaggerItem>
+
+          <StaggerItem className="col-span-1 flex flex-col justify-between rounded-[var(--radius-media)] bg-primary p-5 text-primary-ink md:col-span-2 md:p-7">
+            <span className="text-4xl font-semibold tracking-tight tabular-nums md:text-6xl">+14,8%</span>
+            <span className="mt-6 text-sm leading-snug opacity-80 md:text-base">de probabilidade de compra*</span>
+          </StaggerItem>
+
+          <StaggerItem className="col-span-2 flex flex-col gap-3 rounded-[var(--radius-media)] border border-line p-6 md:col-span-3 md:p-8">
+            <Wind size={28} weight="light" className="text-sage-deep" />
+            <h3 className="text-xl font-semibold tracking-tight md:text-2xl">Ambiente mais agradável</h3>
+            <p className="max-w-[44ch] text-muted">
+              Equipes mais dispostas e concentradas, menos sensação de cansaço e um ar que convida a ficar.
+            </p>
+          </StaggerItem>
+
+          <StaggerItem className="relative col-span-2 grid min-h-[260px] overflow-hidden rounded-[var(--radius-media)] bg-surface sm:grid-cols-2 md:col-span-3">
+            <div className="flex flex-col gap-3 p-6 md:p-8">
+              <Drop size={28} weight="light" className="text-sage-deep" />
+              <h3 className="text-xl font-semibold tracking-tight md:text-2xl">Fragrância exclusiva</h3>
+              <p className="text-muted">Criamos com você o aroma que vira a assinatura da sua marca.</p>
+            </div>
+            {exclusiveImage && (
+              <div className="relative min-h-[200px]">
+                <Image src={exclusiveImage} alt="Embalagem do difusor Aromarts" fill sizes="(min-width: 768px) 25vw, 100vw" className="object-cover" />
+              </div>
+            )}
+          </StaggerItem>
+        </Stagger>
+        <p className="mt-4 text-xs text-muted">
+          *Médias de pesquisa comportamental realizada na Alemanha sobre o uso de fragrâncias no ponto de venda.
+        </p>
       </section>
 
-      {/* Corporativo: painel sálvia de largura total */}
-      <section className="mx-auto max-w-[1400px] px-4 pt-28 md:px-8">
-        <Reveal className="grid overflow-hidden rounded-[var(--radius-media)] bg-sage md:grid-cols-2">
-          <div className="flex flex-col justify-center gap-6 p-8 md:p-14">
-            <h2 className="text-3xl font-semibold tracking-tight md:text-5xl">Sua marca também tem cheiro.</h2>
-            <p className="max-w-[44ch] leading-relaxed text-ink/75">
-              Marketing olfativo e fragrâncias exclusivas para varejo, hotéis, consultórios, academias, concessionárias e
-              eventos.
-            </p>
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-4">
-              <a
-                href={whatsappLink("Olá! Quero um orçamento de aromatização para minha empresa.")}
-                className="rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-ink transition hover:opacity-90 active:scale-[0.98]"
-              >
-                Pedir orçamento
-              </a>
-              <Link href="/pagina/marketing-olfativo-com-aromatizacao-profissional" className="text-sm font-medium underline-offset-4 hover:underline">
-                Como funciona
-              </Link>
-            </div>
+      {/* Como funciona + segmentos */}
+      <section className="mx-auto max-w-[1400px] px-4 pt-20 md:px-8 md:pt-28">
+        <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:gap-20">
+          <div>
+            <Reveal>
+              <h2 className="text-3xl font-semibold tracking-tight md:text-5xl">Do primeiro contato ao ambiente perfumado.</h2>
+            </Reveal>
+            <Stagger as="ul" className="mt-10 space-y-8">
+              {steps.map(({ icon: Icon, title, text }) => (
+                <StaggerItem as="li" key={title} className="flex gap-5">
+                  <span className="grid size-12 shrink-0 place-items-center rounded-full bg-sage">
+                    <Icon size={22} />
+                  </span>
+                  <span>
+                    <span className="block text-lg font-semibold tracking-tight">{title}</span>
+                    <span className="mt-1 block max-w-[40ch] text-muted">{text}</span>
+                  </span>
+                </StaggerItem>
+              ))}
+            </Stagger>
           </div>
-          {corporateImage && (
-            <div className="relative min-h-[320px] md:min-h-[520px]">
-              <Image src={corporateImage} alt="Difusor Aromart em ambiente" fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" />
-            </div>
-          )}
+
+          <Stagger as="ul" className="grid grid-cols-2 gap-3 self-start sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
+            {segments.map(({ icon: Icon, label }) => (
+              <StaggerItem
+                as="li"
+                key={label}
+                className="flex aspect-square flex-col justify-between rounded-[var(--radius-media)] bg-surface p-4 transition-colors hover:bg-sage md:p-5"
+              >
+                <Icon size={30} weight="light" />
+                <span className="text-sm font-medium leading-snug md:text-base">{label}</span>
+              </StaggerItem>
+            ))}
+          </Stagger>
+        </div>
+      </section>
+
+      {/* Fragrâncias */}
+      <section id="fragrancias" className="mx-auto max-w-[1400px] scroll-mt-24 px-4 pt-20 md:px-8 md:pt-28">
+        <Reveal as="header" className="max-w-2xl">
+          <h2 className="text-3xl font-semibold tracking-tight md:text-5xl">Nossas fragrâncias</h2>
+          <p className="mt-4 text-muted md:text-lg">
+            {explorer.length} composições próprias, com notas de saída, coração e fundo. Escolha pela família ou pelo nome.
+          </p>
         </Reveal>
+        <Reveal className="mt-10">
+          <FragranceExplorer items={explorer} />
+        </Reveal>
+      </section>
+
+      {/* Destaques da loja: bento de produtos */}
+      <section className="mx-auto max-w-[1400px] px-4 pt-20 md:px-8 md:pt-28">
+        <Reveal as="header" className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+          <div>
+            <h2 className="text-3xl font-semibold tracking-tight md:text-5xl">Destaques para levar para casa</h2>
+            <p className="mt-3 text-muted md:text-lg">As mesmas fragrâncias, em difusores, sprays e aromatizantes.</p>
+          </div>
+          <nav aria-label="Categorias" className="scrollbar-none -mx-4 flex gap-2 overflow-x-auto px-4 md:mx-0 md:px-0">
+            {site.nav.slice(2, 5).map((c) => (
+              <Link key={c.href} href={c.href} className="shrink-0 rounded-full border border-line px-4 py-2 text-sm transition hover:border-ink">
+                {c.label}
+              </Link>
+            ))}
+          </nav>
+        </Reveal>
+
+        <Stagger className="mt-10 grid grid-cols-2 gap-x-3 gap-y-8 md:gap-x-5 lg:grid-cols-4">
+          {featured && (
+            <StaggerItem as="article" className="col-span-2 lg:row-span-2">
+              <Link
+                href={`/${featured.handle}`}
+                className="group relative flex h-full min-h-[460px] overflow-hidden rounded-[var(--radius-media)] bg-sage"
+              >
+                <Image
+                  src={featured.images[1] ?? featured.images[0]}
+                  alt={featured.name}
+                  fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  className="object-cover transition duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-[1.04]"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#141512]/75 via-transparent to-transparent" />
+                <div className="relative mt-auto flex w-full items-end justify-between gap-4 p-6 text-[#f2f2ee] md:p-8">
+                  <div>
+                    <p className="text-sm text-[#dcdcb4]">Mais pedido</p>
+                    <h3 className="mt-1 text-2xl font-semibold tracking-tight md:text-4xl">{featured.name}</h3>
+                    <p className="mt-1 tabular-nums text-[#f2f2ee]/80">{brl(featured.priceMin)}</p>
+                  </div>
+                  <span className="grid size-12 shrink-0 place-items-center rounded-full bg-[#f2f2ee] text-[#1c1d19] transition group-hover:translate-x-1">
+                    <ArrowRight size={18} />
+                  </span>
+                </div>
+              </Link>
+            </StaggerItem>
+          )}
+          {highlights.map((p) => (
+            <StaggerItem key={p.handle}>
+              <ProductCard product={p} />
+            </StaggerItem>
+          ))}
+        </Stagger>
+      </section>
+
+      {/* Orçamento */}
+      <section id="orcamento" className="mx-auto max-w-[1400px] scroll-mt-20 px-4 pt-20 md:px-8 md:pt-28">
+        <Reveal className="grid overflow-hidden rounded-[var(--radius-media)] bg-surface lg:grid-cols-[0.9fr_1.1fr]">
+          <div className="relative isolate flex min-h-[340px] flex-col justify-end overflow-hidden p-6 text-[#f2f2ee] md:p-10">
+            <Image src="/brand/empresas-hero.webp" alt="" fill sizes="(min-width: 1024px) 45vw, 100vw" className="-z-10 object-cover object-center" />
+            <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#141512]/90 via-[#141512]/50 to-[#141512]/20" />
+            <h2 className="text-3xl font-semibold tracking-tight md:text-5xl">Vamos perfumar sua empresa?</h2>
+            <p className="mt-4 max-w-[40ch] text-[#f2f2ee]/80">
+              Preencha em 1 minuto. A conversa continua no WhatsApp com a nossa equipe comercial.
+            </p>
+            <a
+              href={whatsappLink("Olá! Quero falar sobre aromatização para minha empresa.")}
+              className="mt-6 text-sm font-medium text-[#dcdcb4] underline underline-offset-4"
+            >
+              Prefere falar direto? {site.phone}
+            </a>
+          </div>
+          <div className="p-6 md:p-10">
+            <LeadForm />
+          </div>
+        </Reveal>
+      </section>
+
+      {/* Perguntas frequentes (com FAQPage JSON-LD) */}
+      <section className="mx-auto max-w-[1400px] px-4 pt-20 md:px-8 md:pt-28">
+        <Reveal as="header">
+          <h2 className="text-3xl font-semibold tracking-tight md:text-5xl">Perguntas frequentes</h2>
+        </Reveal>
+        <Stagger className="mt-10 grid gap-x-12 gap-y-8 md:grid-cols-2">
+          {faq.map((f) => (
+            <StaggerItem key={f.q} className="border-t border-line pt-6">
+              <h3 className="text-lg font-semibold tracking-tight">{f.q}</h3>
+              <p className="mt-2 max-w-[56ch] leading-relaxed text-muted">{f.a}</p>
+            </StaggerItem>
+          ))}
+        </Stagger>
       </section>
     </>
   );

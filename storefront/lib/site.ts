@@ -2,7 +2,7 @@ export const site = {
   name: "Aromart Rios",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.aromartrios.com.br",
   description:
-    "Difusores de varetas, home sprays e aromatizantes com fragrâncias próprias. Marketing olfativo para empresas. Entrega em todo o Brasil.",
+    "Aromatização de ambientes e marketing olfativo para empresas: lojas, hotéis, clínicas, academias e escritórios. Fragrâncias exclusivas e entrega em todo o Brasil.",
   whatsapp: "5521964066834",
   phone: "(21) 96406-6834",
   email: "contatoaromart@gmail.com",
@@ -13,11 +13,11 @@ export const site = {
     { label: "Pinterest", href: "https://pinterest.com/contatoaromart" },
   ],
   nav: [
+    { label: "Para empresas", href: "/#solucoes" },
+    { label: "Fragrâncias", href: "/#fragrancias" },
     { label: "Difusores", href: "/difusores" },
     { label: "Home Spray", href: "/home-spray" },
     { label: "Aromatizantes", href: "/aromas" },
-    { label: "Para empresas", href: "/pagina/aromatizacao-de-ambientes-corporativos" },
-    { label: "Quem somos", href: "/pagina/quem-somos" },
   ],
 };
 

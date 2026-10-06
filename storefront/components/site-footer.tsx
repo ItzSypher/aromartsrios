@@ -5,14 +5,14 @@ import { site, whatsappLink } from "@/lib/site";
 const groups = [
   {
     title: "Loja",
-    links: site.nav.slice(0, 3),
+    links: site.nav.slice(2, 5),
   },
   {
     title: "Institucional",
     links: [
       { label: "Quem somos", href: "/pagina/quem-somos" },
-      { label: "Para empresas", href: "/pagina/aromatizacao-de-ambientes-corporativos" },
-      { label: "Marketing olfativo", href: "/pagina/marketing-olfativo-com-aromatizacao-profissional" },
+      { label: "Para empresas", href: "/#solucoes" },
+      { label: "Pedir orçamento", href: "/#orcamento" },
       { label: "Frete grátis por região", href: "/pagina/frete-gratis-por-regiao" },
       { label: "Trocas e devoluções", href: "/pagina/politica-de-trocas-e-devolucoes" },
     ],

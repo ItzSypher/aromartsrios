@@ -112,30 +112,84 @@ p {
   margin: 1.5em 0;
 }
 
-/* Movimento: só com prefers-reduced-motion: no-preference */
-@media (prefers-reduced-motion: no-preference) {
-  .hero-stagger > * {
-    animation: rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
-  }
-  .hero-stagger > :nth-child(2) {
-    animation-delay: 0.08s;
-  }
-  .hero-stagger > :nth-child(3) {
-    animation-delay: 0.16s;
-  }
-  @supports (animation-timeline: view()) {
-    .reveal {
-      animation: rise linear both;
-      animation-timeline: view();
-      animation-range: entry 0% entry 35%;
-    }
-  }
+/* Preloader da marca (CSS puro: some sozinho, inclusive sem JS) */
+.preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  background: var(--bg);
+  animation: preloader-out 0.7s cubic-bezier(0.76, 0, 0.24, 1) 1.15s forwards;
 }
-
-@keyframes rise {
+.no-preloader .preloader {
+  display: none;
+}
+.preloader__mark {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+}
+.preloader__wings {
+  width: 76px;
+  height: auto;
+  animation: wings-in 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.preloader__word {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  padding-left: 0.32em;
+  animation: word-in 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+.preloader__bar {
+  width: 96px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--line);
+  overflow: hidden;
+  position: relative;
+}
+.preloader__bar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--ink);
+  transform-origin: left;
+  animation: bar-fill 1s cubic-bezier(0.65, 0, 0.35, 1) 0.1s both;
+}
+@keyframes wings-in {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(14px) scale(0.92);
+    clip-path: inset(100% 0 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes word-in {
+  from {
+    opacity: 0;
+    letter-spacing: 0.6em;
+  }
+}
+@keyframes bar-fill {
+  from {
+    transform: scaleX(0);
+  }
+}
+@keyframes preloader-out {
+  to {
+    transform: translateY(-100%);
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .preloader {
+    display: none;
   }
 }
 

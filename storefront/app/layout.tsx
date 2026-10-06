@@ -4,6 +4,7 @@ import { CartProvider } from "@/components/cart/cart-provider";
 import { CartDrawer } from "@/components/cart/cart-drawer";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { Preloader, preloaderScript } from "@/components/preloader";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -12,7 +13,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: "Aromart Rios | Aromatização de ambientes", template: "%s | Aromart Rios" },
+  title: { default: "Aromatização de ambientes para empresas | Aromart Rios", template: "%s | Aromart Rios" },
   description: site.description,
   openGraph: { type: "website", locale: "pt_BR", siteName: site.name },
 };
@@ -37,8 +38,15 @@ const orgJsonLd = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+    <html lang="pt-BR" className={`${geistSans.variable} ${geistMono.variable} antialiased`} suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: preloaderScript }} />
+        <noscript>
+          <style>{`[data-reveal]{opacity:1!important;transform:none!important;filter:none!important}`}</style>
+        </noscript>
+      </head>
       <body className="flex min-h-[100dvh] flex-col">
+        <Preloader />
         <a
           href="#conteudo"
           className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-ink"

@@ -21,7 +21,7 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-30 border-b border-line bg-bg/90 backdrop-blur-md">
-      <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-6 px-4 md:h-[72px] md:px-8">
+      <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-3 px-4 md:h-[72px] md:gap-6 md:px-8">
         <button
           className="grid size-10 place-items-center rounded-full hover:bg-surface lg:hidden"
           onClick={() => setMenu((m) => !m)}
@@ -33,7 +33,7 @@ export function SiteHeader() {
 
         <Link href="/" className="flex items-center gap-2.5" aria-label="Aromart Rios, página inicial">
           <Image src="/brand/icon.png" alt="" width={34} height={28} priority className="dark:invert" />
-          <span className="text-[15px] font-semibold tracking-tight">Aromart Rios</span>
+          <span className="hidden text-[15px] font-semibold tracking-tight min-[400px]:inline">Aromart Rios</span>
         </Link>
 
         <nav aria-label="Principal" className="hidden flex-1 justify-center lg:flex">
@@ -56,8 +56,15 @@ export function SiteHeader() {
         </nav>
 
         <div className="ml-auto flex items-center gap-1 lg:ml-0">
+          <Link
+            href="/#orcamento"
+            className="mr-1 rounded-full bg-primary px-4 py-2 text-[13px] font-medium text-primary-ink transition hover:opacity-90 active:scale-[0.98] md:px-5 md:py-2.5 md:text-sm"
+          >
+            <span className="sm:hidden">Orçamento</span>
+            <span className="hidden sm:inline">Pedir orçamento</span>
+          </Link>
           <button
-            className="grid size-10 place-items-center rounded-full hover:bg-surface"
+            className="hidden size-10 place-items-center rounded-full hover:bg-surface sm:grid"
             onClick={() => setSearch((s) => !s)}
             aria-label="Buscar"
             aria-expanded={search}
@@ -107,11 +114,16 @@ export function SiteHeader() {
           <ul className="mx-auto max-w-[1400px] px-4 py-2">
             {site.nav.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="block py-3 text-lg">
+                <Link href={item.href} onClick={() => setMenu(false)} className="block py-3 text-lg">
                   {item.label}
                 </Link>
               </li>
             ))}
+            <li>
+              <Link href="/buscar" className="block py-3 text-lg text-muted">
+                Buscar produto
+              </Link>
+            </li>
           </ul>
         </nav>
       )}

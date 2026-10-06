@@ -22,7 +22,10 @@ const nextConfig: NextConfig = {
       { source: "/frascos", destination: "/difusores", permanent: true },
       { source: "/eletricos", destination: "/difusores", permanent: true },
       { source: "/aromatiza-o-spray-de-ambiente-difusor", destination: "/difusores", permanent: true },
-      { source: "/pagina/servicos", destination: "/pagina/aromatizacao-de-ambientes-corporativos", permanent: true },
+      { source: "/pagina/servicos", destination: "/#solucoes", permanent: true },
+      // Texto antigo era cópia de material de terceiros (cita outra empresa): substituído pela home
+      { source: "/pagina/marketing-olfativo-com-aromatizacao-profissional", destination: "/#solucoes", permanent: true },
+      { source: "/pagina/aromatizacao-de-ambientes-corporativos", destination: "/#solucoes", permanent: true },
     ];
   },
 };
